@@ -1,0 +1,6 @@
+Student Information File
+
+This file contains student-related information for the Eindopdracht-Webmarkup-INF-1.1 project.
+
+Course: Web Markup
+Program: INF-1.1
