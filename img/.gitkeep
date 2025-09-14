@@ -1,0 +1,10 @@
+# Images Directory
+
+Place all image files in this directory including:
+- .jpg, .jpeg files
+- .png files  
+- .gif files
+- .svg files
+- Any other image formats used in the project
+
+This file can be removed once images are added to the directory.

@@ -1,0 +1,10 @@
+# Media Directory
+
+Place all video files in this directory including:
+- .mp4 files
+- .avi files
+- .mov files
+- .webm files
+- Any other video formats used in the project
+
+This file can be removed once media files are added to the directory.
