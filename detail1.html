@@ -3,29 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail1</title>
+    <title>Voorzieningen & Faciliteiten</title>
     <!-- CSS files should be linked from /css folder -->
     <link rel="stylesheet" href="css/detail1.css">
+    <style>
+    </style>
 </head>
 <body>
     <header>
-        <h1>Sample HTML File</h1>
-        <p>This file demonstrates that HTML files should be placed in the root directory.</p>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">🏢</div>
+                <h1>Voorzieningen & Faciliteiten</h1>
+            </div>
+            <div class="nav-tabs">
+                <button class="nav-tab">Home</button>
+                <button class="nav-tab active">Voorzieningen & Faciliteiten</button>
+                <button class="nav-tab">Sfeer & Foto's</button>
+                <button class="nav-tab">Opening & Bereikbaarheid</button>
+                <button class="nav-tab">Reviews</button>
+                <button class="nav-tab">Contact</button>
+            </div>
+        </div>
     </header>
 
     <main>
-        <!-- Images should be referenced from /img folder -->
-        <img src="img/sample-image.jpg" alt="Sample image from img folder">
+        <div class="content-section">
+            <div class="content-image">
+                <div class="placeholder-image">
+                    <img src="img/sample-image.jpg" alt="Moderne werkruimtes" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="content-text">
+                <h2>Moderne Werkruimtes</h2>
+                <p class="subtitle">Professionele omgeving voor optimale productiviteit</p>
+                <p>Onze state-of-the-art werkruimtes zijn ontworpen met de moderne professional in gedachten. Elke ruimte is uitgerust met ergonomische meubilair, hoogwaardige technologie en alle voorzieningen die u nodig heeft voor efficiënt werken.</p>
+                <p>Van flexibele werkplekken tot private kantoren, wij bieden oplossingen die perfect aansluiten bij uw behoeften. Onze faciliteiten worden dagelijks onderhouden volgens de hoogste standaarden van kwaliteit en hygiëne.</p>
+                <ul class="feature-list">
+                    <li>24/7 toegang tot alle faciliteiten</li>
+                    <li>High-speed glasvezel internetverbinding</li>
+                    <li>Ergonomische werkstations</li>
+                    <li>Klimaatbeheersing in elke ruimte</li>
+                </ul>
+                <a href="#contact" class="cta-button">Meer Informatie</a>
+            </div>
+        </div>
 
-        <!-- Videos should be referenced from /media folder -->
-        <video controls>
-            <source src="media/sample-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <div class="content-section">
+            <div class="content-image">
+                <div class="placeholder-image">📊 Vergaderfaciliteiten</div>
+            </div>
+            <div class="content-text">
+                <h2>Vergaderfaciliteiten</h2>
+                <p class="subtitle">Professionele ruimtes voor elke bijeenkomst</p>
+                <p>Onze uitgebreide collectie vergaderzalen varieert van intieme overlegruimtes voor kleine teams tot grote conferentiezalen voor bedrijfsbrede presentaties. Elke ruimte is uitgerust met de nieuwste audiovisuele technologie.</p>
+                <p>Flexibele configuraties maken het mogelijk om elke ruimte aan te passen aan uw specifieke behoeften. Of het nu gaat om een brainstormsessie, client presentatie, of strategische planning - wij hebben de perfecte setting.</p>
+                <ul class="feature-list">
+                    <li>Interactieve whiteboards en displays</li>
+                    <li>Video conferencing faciliteiten</li>
+                    <li>Flexibele meubelopstellingen</li>
+                    <li>Catering service beschikbaar</li>
+                </ul>
+                <a href="#booking" class="cta-button">Reserveer Nu</a>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="content-image">
+                <div class="placeholder-image">⚡ Technische Support</div>
+            </div>
+            <div class="content-text">
+                <h2>Technische Support</h2>
+                <p class="subtitle">24/7 ondersteuning voor al uw technische behoeften</p>
+                <p>Ons ervaren IT-team staat klaar om u te helpen met alle technische vraagstukken. Van het oplossen van netwerk problemen tot het installeren van specialized software - wij zorgen ervoor dat u zich kunt concentreren op uw werk.</p>
+                <p>Met proactieve monitoring en preventief onderhoud minimaliseren we downtime en maximaliseren we de prestaties van alle systemen. Onze helpdesk is bereikbaar via telefoon, email, of walk-in service.</p>
+                <ul class="feature-list">
+                    <li>Dedicated IT helpdesk team</li>
+                    <li>Remote en on-site ondersteuning</li>
+                    <li>Proactieve systeem monitoring</li>
+                    <li>Software installatie en updates</li>
+                </ul>
+                <a href="#support" class="cta-button">Contact Support</a>
+            </div>
+        </div>
+
+        <div class="video-section">
+            <h2>Faciliteiten Rondleiding</h2>
+            <p style="color: #6c757d; margin-bottom: 2rem;">Bekijk onze moderne faciliteiten in actie</p>
+            <div class="video-container">
+                <!-- Videos should be referenced from /media folder -->
+                <video controls>
+                    <source src="media/sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>Project structure example for Eindopdracht-Webmarkup-INF-1.1</p>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Over Onze Faciliteiten</h3>
+                    <p>Wij bieden toonaangevende werkruimte oplossingen met moderne faciliteiten, uitstekende service en flexibele voorwaarden. Uw succes is onze prioriteit.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Werkruimte Verhuur</a></li>
+                        <li><a href="#">Vergaderzalen</a></li>
+                        <li><a href="#">IT Support</a></li>
+                        <li><a href="#">Catering Services</a></li>
+                        <li><a href="#">Event Planning</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📍 Hoofddorp, North Holland</p>
+                    <p>📧 info@faciliteiten.nl</p>
+                    <p>📞 +31 (0)20 123 4567</p>
+                    <p>🌐 www.voorzieningen.nl</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Openingstijden</h3>
+                    <p>Maandag - Vrijdag: 08:00 - 18:00</p>
+                    <p>Zaterdag: 09:00 - 15:00</p>
+                    <p>Zondag: Gesloten</p>
+                    <p>24/7 Toegang voor leden</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Voorzieningen & Faciliteiten | Eindopdracht-Webmarkup-INF-1.1 | Project structure example</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
