@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,222 @@
     <!-- CSS files should be linked from /css folder -->
     <link rel="stylesheet" href="css/detail3.css">
 </head>
+
 <body>
     <header>
-        <h1>Sample HTML File</h1>
-        <p>This file demonstrates that HTML files should be placed in the root directory.</p>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">🕒</div>
+                <h1>Opening & Bereikbaarheid</h1>
+            </div>
+            <div class="nav-tabs">
+                <button class="nav-tab">Home</button>
+                <button class="nav-tab">Voorzieningen & Faciliteiten</button>
+                <button class="nav-tab">Sfeer & Foto's</button>
+                <button class="nav-tab active">Opening & Bereikbaarheid</button>
+                <button class="nav-tab">Reviews</button>
+                <button class="nav-tab">Contact</button>
+            </div>
+        </div>
     </header>
 
     <main>
-        <!-- Images should be referenced from /img folder -->
-        <img src="img/sample-image.jpg" alt="Sample image from img folder">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <img src="img/sample-image.jpg" alt="Toegang tot faciliteiten"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="hero-text">
+                <h2>Opening & Bereikbaarheid</h2>
+                <p class="subtitle">Altijd toegankelijk voor uw gemak</p>
+                <p>Onze faciliteiten zijn ontworpen om maximaal gemak en toegankelijkheid te bieden. Met ruime
+                    openingstijden en uitstekende bereikbaarheid zorgen wij ervoor dat u altijd welkom bent.</p>
+                <p>Van vroeg in de ochtend tot laat in de avond - wij zijn er voor u. Ontdek onze flexibele
+                    toegangsmogelijkheden en ervaar de vrijheid om te werken wanneer het u uitkomt.</p>
 
-        <!-- Videos should be referenced from /media folder -->
-        <video controls>
-            <source src="media/sample-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+                <div class="quick-info">
+                    <div class="info-card">
+                        <h4>🕐 Openingstijden</h4>
+                        <p>Maandag t/m Vrijdag: 06:00 - 22:00<br>
+                            Weekend: 08:00 - 20:00</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>🚗 Parking</h4>
+                        <p>Gratis parkeren voor alle bezoekers<br>
+                            150+ parkeerplaatsen beschikbaar</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>🚌 Openbaar Vervoer</h4>
+                        <p>Direct naast bushalte<br>
+                            5 minuten lopen van station</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <div class="section-header">
+                <h2>Veelgestelde Vragen</h2>
+                <p class="subtitle">Antwoord op belangrijke vragen over opening en bereikbaarheid</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Wat zijn de exacte openingstijden?</span>
+                        <span class="icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Onze faciliteiten zijn geopend van maandag tot vrijdag van 06:00 tot 22:00 uur. In het
+                            weekend zijn we geopend van 08:00 tot 20:00 uur. Voor 24/7 leden bieden we continue toegang
+                            via onze beveiligde toegangssystemen.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Hoe kom ik het beste bij jullie locatie?</span>
+                        <span class="icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We zijn uitstekend bereikbaar met zowel de auto als het openbaar vervoer. Met de auto kunt u
+                            gebruikmaken van onze gratis parkeergarage. Met het openbaar vervoer bevindt de bushalte
+                            zich direct voor de deur, en het treinstation ligt op slechts 5 minuten loopafstand.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is er voldoende parkeergelegenheid?</span>
+                        <span class="icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ja, we hebben ruim voldoende parkeerplaatsen beschikbaar. Onze parkeergarage heeft meer dan
+                            150 plekken en is gratis toegankelijk voor alle bezoekers en huurders. Er zijn ook speciale
+                            plekken gereserveerd voor bezoekers met een beperking.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Kunnen bezoekers mij altijd bereiken?</span>
+                        <span class="icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Binnen de openingstijden kunnen bezoekers u altijd bereiken via onze receptie. Voor leden met
+                            24/7 toegang kunnen bezoekers ook buiten kantooruren worden aangemeld. We zorgen ervoor dat
+                            uw bezoekers altijd een professionele ontvangst krijgen.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Zijn de faciliteiten toegankelijk voor rolstoelgebruikers?</span>
+                        <span class="icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absoluut! Al onze faciliteiten zijn volledig toegankelijk voor mensen met een beperking. We
+                            hebben liften, aangepaste toiletten, en speciale parkeerplaatsen. Onze entrees zijn voorzien
+                            van automatische deuren en alle werkruimtes zijn goed bereikbaar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <h2>Contact & Bereikbaarheid</h2>
+            <p>Heeft u vragen over toegang of bereikbaarheid? Neem contact met ons op!</p>
+
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div class="contact-label">Adres</div>
+                    <div class="contact-info">Hoofddorp<br>North Holland</div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <div class="contact-label">Telefoon</div>
+                    <div class="contact-info">+31 (0)20 123 4567</div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div class="contact-label">Email</div>
+                    <div class="contact-info">toegang@workspace.nl</div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">🕒</span>
+                    <div class="contact-label">Receptie</div>
+                    <div class="contact-info">Ma-Vr: 08:00-18:00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Section -->
+        <div class="video-section">
+            <h2>Routebeschrijving Video</h2>
+            <p style="color: #6c757d; margin-bottom: 2rem;">Bekijk hoe u het beste bij ons kunt komen</p>
+            <div class="video-container">
+                <!-- Videos should be referenced from /media folder -->
+                <video controls>
+                    <source src="media/sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>Project structure example for Eindopdracht-Webmarkup-INF-1.1</p>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Bereikbaarheid</h3>
+                    <p>Wij maken het zo gemakkelijk mogelijk om ons te bezoeken. Met uitstekende verbindingen via
+                        openbaar vervoer en ruime parkeerfaciliteiten bent u altijd welkom.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Openingstijden</h3>
+                    <ul>
+                        <li>Maandag: 06:00 - 22:00</li>
+                        <li>Dinsdag: 06:00 - 22:00</li>
+                        <li>Woensdag: 06:00 - 22:00</li>
+                        <li>Donderdag: 06:00 - 22:00</li>
+                        <li>Vrijdag: 06:00 - 22:00</li>
+                        <li>Zaterdag: 08:00 - 20:00</li>
+                        <li>Zondag: 08:00 - 20:00</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Toegang</h3>
+                    <ul>
+                        <li><a href="#">24/7 Toegang Aanvragen</a></li>
+                        <li><a href="#">Bezoeker Aanmelden</a></li>
+                        <li><a href="#">Parkeren Reserveren</a></li>
+                        <li><a href="#">Routeplanner</a></li>
+                        <li><a href="#">Toegankelijkheid Info</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📍 Hoofddorp, North Holland</p>
+                    <p>📞 +31 (0)20 123 4567</p>
+                    <p>📧 toegang@workspace.nl</p>
+                    <p>🌐 www.workspace.nl/bereikbaarheid</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Opening & Bereikbaarheid | Eindopdracht-Webmarkup-INF-1.1 | Project structure example</p>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
