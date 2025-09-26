@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,229 @@
     <!-- CSS files should be linked from /css folder -->
     <link rel="stylesheet" href="css/detail2.css">
 </head>
+
 <body>
     <header>
-        <h1>Sample HTML File</h1>
-        <p>This file demonstrates that HTML files should be placed in the root directory.</p>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">📸</div>
+                <h1>Sfeer & Foto's</h1>
+            </div>
+            <div class="nav-tabs">
+                <button class="nav-tab">Home</button>
+                <button class="nav-tab">Voorzieningen & Faciliteiten</button>
+                <button class="nav-tab active">Sfeer & Foto's</button>
+                <button class="nav-tab">Opening & Bereikbaarheid</button>
+                <button class="nav-tab">Reviews</button>
+                <button class="nav-tab">Contact</button>
+            </div>
+        </div>
     </header>
 
     <main>
-        <!-- Images should be referenced from /img folder -->
-        <img src="img/sample-image.jpg" alt="Sample image from img folder">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h2>📸 Sfeer & Foto's</h2>
+            <p class="subtitle">Ontdek de unieke atmosfeer van onze faciliteiten</p>
+            <p>Een beeld zegt meer dan duizend woorden. Bekijk onze fotogalerij om een indruk te krijgen van de
+                professionele en inspirerende omgeving die wij bieden.</p>
+        </div>
 
-        <!-- Videos should be referenced from /media folder -->
-        <video controls>
-            <source src="media/sample-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <!-- Photo Gallery -->
+        <div class="gallery-section">
+            <div class="gallery-grid">
+                <div class="photo-card">
+                    <div class="photo-card-image">
+                        🏢
+                        <div class="photo-overlay">Klik om te vergroten</div>
+                    </div>
+                    <div class="photo-card-content">
+                        <h3>Moderne Werkruimtes</h3>
+                        <p>Stijlvolle en functionele werkplekken ontworpen voor maximale productiviteit. Elke werkruimte
+                            is ingericht met ergonomische meubilair en moderne technologie.</p>
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <div class="photo-card-image">
+                        🎯
+                        <div class="photo-overlay">Klik om te vergroten</div>
+                    </div>
+                    <div class="photo-card-content">
+                        <h3>Vergaderzalen</h3>
+                        <p>Professionele vergaderruimtes met state-of-the-art presentatie-apparatuur. Perfect voor
+                            belangrijke meetings en client presentaties.</p>
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <div class="photo-card-image">
+                        ☕
+                        <div class="photo-overlay">Klik om te vergroten</div>
+                    </div>
+                    <div class="photo-card-content">
+                        <h3>Ontspanningsruimtes</h3>
+                        <p>Gezellige lounge areas waar u kunt ontspannen, netwerken of informele meetings kunt houden.
+                            Inclusief premium koffie en versnaperingen.</p>
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <div class="photo-card-image">
+                        🌿
+                        <div class="photo-overlay">Klik om te vergroten</div>
+                    </div>
+                    <div class="photo-card-content">
+                        <h3>Buitenruimtes</h3>
+                        <p>Prachtige terrassen en tuinen die een rustige omgeving bieden voor buitenvergaderingen of een
+                            welverdiende pauze in de natuur.</p>
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <div class="photo-card-image">
+                        💻
+                        <div class="photo-overlay">Klik om te vergroten</div>
+                    </div>
+                    <div class="photo-card-content">
+                        <h3>Tech Hubs</h3>
+                        <p>Geavanceerde technologie zones uitgerust met de nieuwste hardware en software. Ideaal voor
+                            innovatieve projecten en ontwikkeling.</p>
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <div class="photo-card-image">
+                        🎨
+                        <div class="photo-overlay">Klik om te vergroten</div>
+                    </div>
+                    <div class="photo-card-content">
+                        <h3>Creatieve Ruimtes</h3>
+                        <p>Inspirerende omgevingen speciaal ontworpen voor brainstorming en creatieve sessies. Met
+                            flexibele inrichting en artistieke elementen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistics Section -->
+        <div class="stats-section">
+            <h2>Onze Faciliteiten in Cijfers</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Tevreden Klanten</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50</div>
+                    <div class="stat-label">Werkruimtes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Toegang</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Service Kwaliteit</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Section 1 -->
+        <div class="content-section">
+            <div class="content-image">
+                <div class="placeholder-image">
+                    <img src="img/sample-image.jpg" alt="Workspace atmosphere"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="content-text">
+                <h2>Unieke Werksfeer</h2>
+                <p class="subtitle">Waar professionaliteit en comfort samenkomen</p>
+                <p>Onze ruimtes zijn zorgvuldig ontworpen om een perfecte balans te creëren tussen professionaliteit en
+                    comfort. Elke hoek ademt een sfeer van productiviteit en inspiratie.</p>
+                <p>Van de warme verlichting tot de doordachte kleurenschema's - elk detail draagt bij aan een omgeving
+                    waarin u optimaal kunt presteren. De open architectuur bevordert samenwerking terwijl private zones
+                    zorgen voor de nodige concentratie.</p>
+            </div>
+        </div>
+
+        <!-- Video Section -->
+        <div class="video-section">
+            <h2>360° Virtuele Rondleiding</h2>
+            <p style="color: #6c757d; margin-bottom: 2rem;">Ervaar onze faciliteiten vanuit uw eigen omgeving</p>
+            <div class="video-container">
+                <!-- Videos should be referenced from /media folder -->
+                <video controls>
+                    <source src="media/sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- Content Section 2 -->
+        <div class="content-section">
+            <div class="content-image">
+                <div class="placeholder-image">🎨 Design Details</div>
+            </div>
+            <div class="content-text">
+                <h2>Doordacht Design</h2>
+                <p class="subtitle">Elk detail met zorg geselecteerd</p>
+                <p>Ons interieur ontwerp combineert moderne esthetiek met functionele prakticaliteit. Natuurlijke
+                    materialen, ergonomische meubilair en innovatieve technologie komen samen in harmonieuze ruimtes.
+                </p>
+                <p>De flexibele inrichting past zich aan uw behoeften aan, terwijl de tijdloze elegantie zorgt voor een
+                    professionele uitstraling. Duurzaamheid en kwaliteit staan centraal in elke ontwerpbeslissing die we
+                    maken.</p>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>Project structure example for Eindopdracht-Webmarkup-INF-1.1</p>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Fotogalerij</h3>
+                    <p>Ontdek de unieke sfeer van onze moderne faciliteiten door onze uitgebreide fotogalerij. Van
+                        werkruimtes tot ontspanningsgebieden - zie hoe wij de perfecte werkomgeving creëren.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Faciliteiten</h3>
+                    <ul>
+                        <li><a href="#">Werkruimtes</a></li>
+                        <li><a href="#">Vergaderzalen</a></li>
+                        <li><a href="#">Lounge Areas</a></li>
+                        <li><a href="#">Buitenruimtes</a></li>
+                        <li><a href="#">Tech Zones</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Fotografie Service</a></li>
+                        <li><a href="#">Virtual Tours</a></li>
+                        <li><a href="#">Event Photography</a></li>
+                        <li><a href="#">Marketing Materials</a></li>
+                        <li><a href="#">Social Media Content</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📍 Hoofddorp, North Holland</p>
+                    <p>📧 fotos@myworkspace.nl</p>
+                    <p>📞 +31 (0)20 123 4567</p>
+                    <p>📸 Instagram: @myworkspace</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sfeer & Foto's | Eindopdracht-Webmarkup-INF-1.1 | Project structure example</p>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
