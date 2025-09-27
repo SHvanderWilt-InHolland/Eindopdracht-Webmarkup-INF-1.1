@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,183 @@
     <!-- CSS files should be linked from /css folder -->
     <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
     <header>
-        <h1>Sample HTML File</h1>
-        <p>This file demonstrates that HTML files should be placed in the root directory.</p>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">📧</div>
+                <h1>Contact</h1>
+            </div>
+            <div class="nav-tabs">
+                <button class="nav-tab">Home</button>
+                <button class="nav-tab">Voorzieningen & Faciliteiten</button>
+                <button class="nav-tab">Sfeer & Foto's</button>
+                <button class="nav-tab">Opening & Bereikbaarheid</button>
+                <button class="nav-tab">Reviews</button>
+                <button class="nav-tab active">Contact</button>
+            </div>
+        </div>
     </header>
 
     <main>
-        <!-- Images should be referenced from /img folder -->
-        <img src="img/sample-image.jpg" alt="Sample image from img folder">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h2>📧 Neem Contact Op</h2>
+            <p class="subtitle">Wij staan klaar om al uw vragen te beantwoorden</p>
+            <p>Heeft u vragen over onze faciliteiten, wilt u een rondleiding plannen, of bent u geïnteresseerd in onze
+                diensten? Neem gerust contact met ons op!</p>
+        </div>
 
-        <!-- Videos should be referenced from /media folder -->
-        <video controls>
-            <source src="media/sample-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <div class="form-header">
+                    <div class="form-icon">✉️</div>
+                    <div class="form-info">
+                        <h3>Stuur ons een Bericht</h3>
+                        <p>Vul het formulier in en wij nemen zo snel mogelijk contact met u op</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Naam</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="surname">Achternaam</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Bericht</label>
+                        <textarea id="message" name="message" placeholder="Typ hier uw bericht..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Verstuur Bericht</button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Contactgegevens</h3>
+                <p class="subtitle">Meerdere manieren om ons te bereiken</p>
+                <p>Ons team staat klaar om u te helpen met al uw vragen over werkruimtes, faciliteiten en diensten. We
+                    streven ernaar om binnen 24 uur te reageren op alle berichten.</p>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h4>Bezoekadres</h4>
+                            <p>Hoofddorp, North Holland<br>Nederland</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h4>Telefoon</h4>
+                            <p>+31 (0)20 123 4567<br>Ma-Vr: 08:00 - 18:00</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>info@workspace.nl<br>Reactie binnen 24 uur</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">💬</div>
+                        <div class="info-content">
+                            <h4>Live Chat</h4>
+                            <p>Beschikbaar op werkdagen<br>09:00 - 17:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-section">
+            <h2>Onze Locatie</h2>
+            <p style="color: #6c757d; margin-bottom: 2rem;">Vind ons in het hart van Hoofddorp</p>
+            <div class="map-placeholder">
+                <img src="img/sample-image.jpg" alt="Locatie kaart"
+                    style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+            </div>
+        </div>
+
+        <!-- Video Section -->
+        <div class="video-section">
+            <h2>Virtuele Rondleiding</h2>
+            <p style="color: #6c757d; margin-bottom: 2rem;">Bekijk onze faciliteiten voordat u langskomt</p>
+            <div class="video-container">
+                <!-- Videos should be referenced from /media folder -->
+                <video controls>
+                    <source src="media/sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>Project structure example for Eindopdracht-Webmarkup-INF-1.1</p>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Contact Informatie</h3>
+                    <p>Wij zijn er om u te helpen bij al uw vragen over werkruimtes, faciliteiten en diensten. Aarzel
+                        niet om contact op te nemen voor een persoonlijk gesprek.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contactmogelijkheden</h3>
+                    <ul>
+                        <li><a href="#">Online Contact Formulier</a></li>
+                        <li><a href="#">Live Chat Support</a></li>
+                        <li><a href="#">Telefonisch Contact</a></li>
+                        <li><a href="#">Email Ondersteuning</a></li>
+                        <li><a href="#">WhatsApp Business</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Openingstijden</h3>
+                    <ul>
+                        <li>Maandag - Vrijdag: 08:00 - 18:00</li>
+                        <li>Zaterdag: 09:00 - 15:00</li>
+                        <li>Zondag: Gesloten</li>
+                        <li>Feestdagen: Aangepaste tijden</li>
+                        <li>Noodgevallen: 24/7 bereikbaar</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Bezoek Ons</h3>
+                    <p>📍 Hoofddorp, North Holland</p>
+                    <p>📞 +31 (0)20 123 4567</p>
+                    <p>📧 contact@workspace.nl</p>
+                    <p>🌐 www.workspace.nl/contact</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Contact | Eindopdracht-Webmarkup-INF-1.1 | Project structure example</p>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
