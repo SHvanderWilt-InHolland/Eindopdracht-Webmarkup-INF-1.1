@@ -1,0 +1,188 @@
+:root {
+  --crimson-text-normal-font-family: "Crimson Text", Helvetica;
+  --crimson-text-normal-font-weight: 400;
+  --crimson-text-normal-font-size: 16px;
+  --crimson-text-normal-letter-spacing: 0px;
+  --crimson-text-normal-line-height: 150%;
+  --crimson-text-normal-font-style: normal;
+  --crimson-text-large-font-family: "Crimson Text", Helvetica;
+  --crimson-text-large-font-weight: 400;
+  --crimson-text-large-font-size: 20px;
+  --crimson-text-large-letter-spacing: 0px;
+  --crimson-text-large-line-height: 150%;
+  --crimson-text-large-font-style: normal;
+  --crimson-text-small-font-family: "Crimson Text", Helvetica;
+  --crimson-text-small-font-weight: 400;
+  --crimson-text-small-font-size: 14px;
+  --crimson-text-small-letter-spacing: 0px;
+  --crimson-text-small-line-height: 150%;
+  --crimson-text-small-font-style: normal;
+  --crimson-text-heading-1-font-family: "Crimson Text", Helvetica;
+  --crimson-text-heading-1-font-weight: 700;
+  --crimson-text-heading-1-font-size: 56px;
+  --crimson-text-heading-1-letter-spacing: 0px;
+  --crimson-text-heading-1-line-height: 120.00000476837158%;
+  --crimson-text-heading-1-font-style: normal;
+  --crimson-text-heading-2-font-family: "Crimson Text", Helvetica;
+  --crimson-text-heading-2-font-weight: 700;
+  --crimson-text-heading-2-font-size: 48px;
+  --crimson-text-heading-2-letter-spacing: 0px;
+  --crimson-text-heading-2-line-height: 120.00000476837158%;
+  --crimson-text-heading-2-font-style: normal;
+  --crimson-text-heading-3-font-family: "Crimson Text", Helvetica;
+  --crimson-text-heading-3-font-weight: 700;
+  --crimson-text-heading-3-font-size: 40px;
+  --crimson-text-heading-3-letter-spacing: 0px;
+  --crimson-text-heading-3-line-height: 120.00000476837158%;
+  --crimson-text-heading-3-font-style: normal;
+  --crimson-text-heading-4-font-family: "Crimson Text", Helvetica;
+  --crimson-text-heading-4-font-weight: 700;
+  --crimson-text-heading-4-font-size: 32px;
+  --crimson-text-heading-4-letter-spacing: 0px;
+  --crimson-text-heading-4-line-height: 129.99999523162842%;
+  --crimson-text-heading-4-font-style: normal;
+  --crimson-text-heading-5-font-family: "Crimson Text", Helvetica;
+  --crimson-text-heading-5-font-weight: 700;
+  --crimson-text-heading-5-font-size: 24px;
+  --crimson-text-heading-5-letter-spacing: 0px;
+  --crimson-text-heading-5-line-height: 139.9999976158142%;
+  --crimson-text-heading-5-font-style: normal;
+  --crimson-text-heading-6-font-family: "Crimson Text", Helvetica;
+  --crimson-text-heading-6-font-weight: 700;
+  --crimson-text-heading-6-font-size: 20px;
+  --crimson-text-heading-6-letter-spacing: 0px;
+  --crimson-text-heading-6-line-height: 139.9999976158142%;
+  --crimson-text-heading-6-font-style: normal;
+  --crimson-text-mobile-heading-1-font-family: "Crimson Text", Helvetica;
+  --crimson-text-mobile-heading-1-font-weight: 700;
+  --crimson-text-mobile-heading-1-font-size: 40px;
+  --crimson-text-mobile-heading-1-letter-spacing: 0px;
+  --crimson-text-mobile-heading-1-line-height: 120.00000476837158%;
+  --crimson-text-mobile-heading-1-font-style: normal;
+  --crimson-text-mobile-heading-2-font-family: "Crimson Text", Helvetica;
+  --crimson-text-mobile-heading-2-font-weight: 700;
+  --crimson-text-mobile-heading-2-font-size: 36px;
+  --crimson-text-mobile-heading-2-letter-spacing: 0px;
+  --crimson-text-mobile-heading-2-line-height: 120.00000476837158%;
+  --crimson-text-mobile-heading-2-font-style: normal;
+  --crimson-text-mobile-heading-3-font-family: "Crimson Text", Helvetica;
+  --crimson-text-mobile-heading-3-font-weight: 700;
+  --crimson-text-mobile-heading-3-font-size: 32px;
+  --crimson-text-mobile-heading-3-letter-spacing: 0px;
+  --crimson-text-mobile-heading-3-line-height: 120.00000476837158%;
+  --crimson-text-mobile-heading-3-font-style: normal;
+  --crimson-text-mobile-heading-4-font-family: "Crimson Text", Helvetica;
+  --crimson-text-mobile-heading-4-font-weight: 700;
+  --crimson-text-mobile-heading-4-font-size: 24px;
+  --crimson-text-mobile-heading-4-letter-spacing: 0px;
+  --crimson-text-mobile-heading-4-line-height: 139.9999976158142%;
+  --crimson-text-mobile-heading-4-font-style: normal;
+  --crimson-text-mobile-heading-5-font-family: "Crimson Text", Helvetica;
+  --crimson-text-mobile-heading-5-font-weight: 700;
+  --crimson-text-mobile-heading-5-font-size: 20px;
+  --crimson-text-mobile-heading-5-letter-spacing: 0px;
+  --crimson-text-mobile-heading-5-line-height: 139.9999976158142%;
+  --crimson-text-mobile-heading-5-font-style: normal;
+  --crimson-text-mobile-heading-6-font-family: "Crimson Text", Helvetica;
+  --crimson-text-mobile-heading-6-font-weight: 700;
+  --crimson-text-mobile-heading-6-font-size: 18px;
+  --crimson-text-mobile-heading-6-letter-spacing: 0px;
+  --crimson-text-mobile-heading-6-line-height: 139.9999976158142%;
+  --crimson-text-mobile-heading-6-font-style: normal;
+  --single-line-body-base-font-family: "Inter", Helvetica;
+  --single-line-body-base-font-weight: 400;
+  --single-line-body-base-font-size: 16px;
+  --single-line-body-base-letter-spacing: 0px;
+  --single-line-body-base-line-height: 100%;
+  --single-line-body-base-font-style: normal;
+  --body-strong-font-family: "Inter", Helvetica;
+  --body-strong-font-weight: 600;
+  --body-strong-font-size: 16px;
+  --body-strong-letter-spacing: 0px;
+  --body-strong-line-height: 139.9999976158142%;
+  --body-strong-font-style: normal;
+  --body-base-font-family: "Inter", Helvetica;
+  --body-base-font-weight: 400;
+  --body-base-font-size: 16px;
+  --body-base-letter-spacing: 0px;
+  --body-base-line-height: 139.9999976158142%;
+  --body-base-font-style: normal;
+  --collection-1-color: rgba(255, 255, 255, 1);
+  --color-text-brand-on-brand-secondary: var(--color-primitives-brand-900);
+  --color-text-default-default: var(--color-primitives-gray-900);
+  --color-text-brand-on-brand: var(--color-primitives-brand-100);
+  --color-text-default-default-duplicate: var(--color-primitives-gray-900);
+  --color-background-brand-tertiary: var(--color-primitives-brand-100);
+  --color-background-brand-default: var(--color-primitives-brand-800);
+  --color-background-default-default: var(--color-primitives-white-1000);
+  --color-border-default-default: var(--color-primitives-gray-300);
+  --color-border-brand-default: var(--color-primitives-brand-800);
+  --color-background-default-default-duplicate: var(
+    --color-primitives-white-1000
+  );
+  --size-space-300: 12px;
+  --size-space-200: 8px;
+  --size-space-400: 16px;
+  --size-space-600: 24px;
+  --size-radius-200: 8px;
+  --size-space-800: 32px;
+  --size-space-4000: 160px;
+  --size-space-1200: 48px;
+  --size-space-1600: 64px;
+  --color-primitives-brand-900: rgba(30, 30, 30, 1);
+  --color-primitives-gray-900: rgba(30, 30, 30, 1);
+  --color-primitives-brand-100: rgba(245, 245, 245, 1);
+  --color-primitives-slate-200: rgba(227, 227, 227, 1);
+  --color-primitives-white-1000: rgba(255, 255, 255, 1);
+  --color-primitives-brand-800: rgba(44, 44, 44, 1);
+  --color-primitives-brand-600: rgba(68, 68, 68, 1);
+  --color-primitives-gray-300: rgba(217, 217, 217, 1);
+  --color-primitives-gray-600: rgba(68, 68, 68, 1);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-color-mode="SDS-light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-color-mode="SDS-light"] {
+  --color-text-brand-on-brand-secondary: var(--color-primitives-brand-900);
+  --color-text-default-default: var(--color-primitives-gray-900);
+  --color-text-brand-on-brand: var(--color-primitives-brand-100);
+  --color-text-default-default-duplicate: var(--color-primitives-gray-900);
+  --color-background-brand-tertiary: var(--color-primitives-brand-100);
+  --color-background-brand-default: var(--color-primitives-brand-800);
+  --color-background-default-default: var(--color-primitives-white-1000);
+  --color-border-default-default: var(--color-primitives-gray-300);
+  --color-border-brand-default: var(--color-primitives-brand-800);
+  --color-background-default-default-duplicate: var(
+    --color-primitives-white-1000
+  );
+}
+
+[data-color-mode="SDS-dark"] {
+  --color-text-brand-on-brand-secondary: var(--color-primitives-brand-100);
+  --color-text-default-default: var(--color-primitives-white-1000);
+  --color-text-brand-on-brand: var(--color-primitives-brand-900);
+  --color-text-default-default-duplicate: var(--color-primitives-white-1000);
+  --color-background-brand-tertiary: var(--color-primitives-brand-600);
+  --color-background-brand-default: var(--color-primitives-brand-100);
+  --color-background-default-default: var(--color-primitives-gray-900);
+  --color-border-default-default: var(--color-primitives-gray-600);
+  --color-border-brand-default: var(--color-primitives-brand-100);
+  --color-background-default-default-duplicate: var(--color-primitives-gray-900);
+}
+
+[data-color-mode="brand-b-light"] {
+  --color-text-default-default-duplicate: var(--color-primitives-gray-900);
+  --color-background-default-default-duplicate: var(
+    --color-primitives-white-1000
+  );
+}
