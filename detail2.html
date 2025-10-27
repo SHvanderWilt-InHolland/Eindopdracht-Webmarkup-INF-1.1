@@ -6,231 +6,187 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sfeer & Foto's</title>
     <!-- CSS files should be linked from /css folder -->
+    <link rel="stylesheet" href="css/styleguide.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/detail2.css">
+    <!-- Import Google Fonts used in styleguide -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body data-color-mode="SDS-light">
     <header>
         <div class="header-container">
             <div class="logo">
-                <div class="logo-icon">📸</div>
-                <h1>Sfeer & Foto's</h1>
+                <div class="logo-icon">
+                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs">
+                </div>
             </div>
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
             <div class="nav-tabs">
-                <button class="nav-tab">Home</button>
-                <button class="nav-tab">Voorzieningen & Faciliteiten</button>
-                <button class="nav-tab active">Sfeer & Foto's</button>
-                <button class="nav-tab">Opening & Bereikbaarheid</button>
-                <button class="nav-tab">Reviews</button>
-                <button class="nav-tab">Contact</button>
+                <a href="index.html" class="nav-tab">Home</a>
+                <a href="detail1.html" class="nav-tab">Faciliteiten</a>
+                <a href="detail2.html" class="nav-tab active">Sfeer</a>
+                <a href="detail3.html" class="nav-tab">Openingstijden</a>
+                <a href="detail4.html" class="nav-tab">Reviews</a>
+                <a href="contact.html" class="nav-tab">Contact</a>
             </div>
         </div>
     </header>
 
     <main>
-        <!-- Page Header -->
-        <div class="page-header">
-            <h2>📸 Sfeer & Foto's</h2>
-            <p class="subtitle">Ontdek de unieke atmosfeer van onze faciliteiten</p>
-            <p>Een beeld zegt meer dan duizend woorden. Bekijk onze fotogalerij om een indruk te krijgen van de
-                professionele en inspirerende omgeving die wij bieden.</p>
-        </div>
-
-        <!-- Photo Gallery -->
-        <div class="gallery-section">
-            <div class="gallery-grid">
-                <div class="photo-card">
-                    <div class="photo-card-image">
-                        🏢
-                        <div class="photo-overlay">Klik om te vergroten</div>
+        <!-- Cards Section -->
+        <div class="cards-container">
+            <h2>Fotogalerij</h2>
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/petr-magera-5shl-NRhPyc-unsplash.jpg" alt="Workspace hallway">
                     </div>
-                    <div class="photo-card-content">
-                        <h3>Moderne Werkruimtes</h3>
-                        <p>Stijlvolle en functionele werkplekken ontworpen voor maximale productiviteit. Elke werkruimte
-                            is ingericht met ergonomische meubilair en moderne technologie.</p>
-                    </div>
+                    <h3>Moderne Werkplekken</h3>
+                    <p>Open, lichte ruimtes met ergonomische meubels en een rustige sfeer —
+                        perfect voor productief werken of creatieve brainstormsessies.</p>
                 </div>
-
-                <div class="photo-card">
-                    <div class="photo-card-image">
-                        🎯
-                        <div class="photo-overlay">Klik om te vergroten</div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/myhq-workspaces-VCoh27vHEh0-unsplash.jpg" alt="Workspace relaxation area">
                     </div>
-                    <div class="photo-card-content">
-                        <h3>Vergaderzalen</h3>
-                        <p>Professionele vergaderruimtes met state-of-the-art presentatie-apparatuur. Perfect voor
-                            belangrijke meetings en client presentaties.</p>
-                    </div>
+                    <h3>Vergaderruimtes met karakter</h3>
+                    <p>Van kleine overlegkamers tot grote boardrooms — onze vergaderruimtes
+                        zijn voorzien van alle gemakken, zodat elk overleg efficiënt en professioneel verloopt.</p>
                 </div>
-
-                <div class="photo-card">
-                    <div class="photo-card-image">
-                        ☕
-                        <div class="photo-overlay">Klik om te vergroten</div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/jiran-family-HR7PVFL20N0-unsplash.jpg" alt="Workspace hall waiting area">
                     </div>
-                    <div class="photo-card-content">
-                        <h3>Ontspanningsruimtes</h3>
-                        <p>Gezellige lounge areas waar u kunt ontspannen, netwerken of informele meetings kunt houden.
-                            Inclusief premium koffie en versnaperingen.</p>
-                    </div>
-                </div>
-
-                <div class="photo-card">
-                    <div class="photo-card-image">
-                        🌿
-                        <div class="photo-overlay">Klik om te vergroten</div>
-                    </div>
-                    <div class="photo-card-content">
-                        <h3>Buitenruimtes</h3>
-                        <p>Prachtige terrassen en tuinen die een rustige omgeving bieden voor buitenvergaderingen of een
-                            welverdiende pauze in de natuur.</p>
-                    </div>
-                </div>
-
-                <div class="photo-card">
-                    <div class="photo-card-image">
-                        💻
-                        <div class="photo-overlay">Klik om te vergroten</div>
-                    </div>
-                    <div class="photo-card-content">
-                        <h3>Tech Hubs</h3>
-                        <p>Geavanceerde technologie zones uitgerust met de nieuwste hardware en software. Ideaal voor
-                            innovatieve projecten en ontwikkeling.</p>
-                    </div>
-                </div>
-
-                <div class="photo-card">
-                    <div class="photo-card-image">
-                        🎨
-                        <div class="photo-overlay">Klik om te vergroten</div>
-                    </div>
-                    <div class="photo-card-content">
-                        <h3>Creatieve Ruimtes</h3>
-                        <p>Inspirerende omgevingen speciaal ontworpen voor brainstorming en creatieve sessies. Met
-                            flexibele inrichting en artistieke elementen.</p>
-                    </div>
+                    <h3>Gezellige community zones</h3>
+                    <p> Ontspan tussen het werken door in onze lounge of aan de koffietafel.
+                        Hier ontstaan de beste ideeën en waardevolle connecties.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Statistics Section -->
-        <div class="stats-section">
-            <h2>Onze Faciliteiten in Cijfers</h2>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">Tevreden Klanten</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">50</div>
-                    <div class="stat-label">Werkruimtes</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-label">Toegang</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Service Kwaliteit</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Content Section 1 -->
-        <div class="content-section">
-            <div class="content-image">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-image">
                 <div class="placeholder-image">
-                    <img src="img/sample-image.jpg" alt="Workspace atmosphere"
-                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                    <img src="img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" alt="Desk near a window">
                 </div>
             </div>
-            <div class="content-text">
-                <h2>Unieke Werksfeer</h2>
-                <p class="subtitle">Waar professionaliteit en comfort samenkomen</p>
-                <p>Onze ruimtes zijn zorgvuldig ontworpen om een perfecte balans te creëren tussen professionaliteit en
-                    comfort. Elke hoek ademt een sfeer van productiviteit en inspiratie.</p>
-                <p>Van de warme verlichting tot de doordachte kleurenschema's - elk detail draagt bij aan een omgeving
-                    waarin u optimaal kunt presteren. De open architectuur bevordert samenwerking terwijl private zones
-                    zorgen voor de nodige concentratie.</p>
-            </div>
-        </div>
-
-        <!-- Video Section -->
-        <div class="video-section">
-            <h2>360° Virtuele Rondleiding</h2>
-            <p style="color: #6c757d; margin-bottom: 2rem;">Ervaar onze faciliteiten vanuit uw eigen omgeving</p>
-            <div class="video-container">
-                <!-- Videos should be referenced from /media folder -->
-                <video controls>
-                    <source src="media/sample-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-
-        <!-- Content Section 2 -->
-        <div class="content-section">
-            <div class="content-image">
-                <div class="placeholder-image">🎨 Design Details</div>
-            </div>
-            <div class="content-text">
-                <h2>Doordacht Design</h2>
-                <p class="subtitle">Elk detail met zorg geselecteerd</p>
-                <p>Ons interieur ontwerp combineert moderne esthetiek met functionele prakticaliteit. Natuurlijke
-                    materialen, ergonomische meubilair en innovatieve technologie komen samen in harmonieuze ruimtes.
-                </p>
-                <p>De flexibele inrichting past zich aan uw behoeften aan, terwijl de tijdloze elegantie zorgt voor een
-                    professionele uitstraling. Duurzaamheid en kwaliteit staan centraal in elke ontwerpbeslissing die we
-                    maken.</p>
+            <div class="hero-text">
+                <h2>Sfeer In De Workspace</h2>
+                <p>De sfeer bij WorkSpace is professioneel, maar altijd persoonlijk. Je merkt het meteen bij
+                    binnenkomst: een open omgeving waar iedereen zich op zijn gemak voelt. Rustige focusruimtes worden
+                    afgewisseld met levendige ontmoetingsplekken, zodat er voor ieder moment van de dag een passende
+                    plek is.
+                    Wij geloven in verbinding en balans — een werkplek waar je geconcentreerd kunt presteren, maar ook
+                    kunt ontspannen en samenwerken met anderen. Met natuurlijke materialen, veel lichtinval en een warme
+                    inrichting voelt WorkSpace als een tweede thuis.</p>
             </div>
         </div>
     </main>
 
+
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section">
-                    <h3>Fotogalerij</h3>
-                    <p>Ontdek de unieke sfeer van onze moderne faciliteiten door onze uitgebreide fotogalerij. Van
-                        werkruimtes tot ontspanningsgebieden - zie hoe wij de perfecte werkomgeving creëren.</p>
+                <div class="footer-section footer-logo-section">
+                    <div class="footer-logo">
+                        <img src="img/WS.svg" alt="WorkSpace Logo">
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="#" aria-label="X (Twitter)">
+                            <img src="img/X Logo.svg" alt="X">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="img/Logo Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <img src="img/Logo YouTube.svg" alt="YouTube">
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="img/LinkedIn.svg" alt="LinkedIn">
+                        </a>
+                    </div>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Faciliteiten</h3>
+                    <h3>Use cases</h3>
                     <ul>
-                        <li><a href="#">Werkruimtes</a></li>
-                        <li><a href="#">Vergaderzalen</a></li>
-                        <li><a href="#">Lounge Areas</a></li>
-                        <li><a href="#">Buitenruimtes</a></li>
-                        <li><a href="#">Tech Zones</a></li>
+                        <li>UI Design</li>
+                        <li>UX Design</li>
+                        <li>Wireframing</li>
+                        <li>Diagramming</li>
+                        <li>Brainstorming</li>
+                        <li>Online whiteboard</li>
+                        <li>Team collaboration</li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Services</h3>
+                    <h3>Explores</h3>
                     <ul>
-                        <li><a href="#">Fotografie Service</a></li>
-                        <li><a href="#">Virtual Tours</a></li>
-                        <li><a href="#">Event Photography</a></li>
-                        <li><a href="#">Marketing Materials</a></li>
-                        <li><a href="#">Social Media Content</a></li>
+                        <li>Design</li>
+                        <li>Prototyping</li>
+                        <li>Development features</li>
+                        <li>Design systems</li>
+                        <li>Collaboration features</li>
+                        <li>Design process</li>
+                        <li>FigJam</li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>📍 Hoofddorp, North Holland</p>
-                    <p>📧 fotos@myworkspace.nl</p>
-                    <p>📞 +31 (0)20 123 4567</p>
-                    <p>📸 Instagram: @myworkspace</p>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>Blog</li>
+                        <li>Best practices</li>
+                        <li>Colors</li>
+                        <li>Color wheel</li>
+                        <li>Support</li>
+                        <li>Developers</li>
+                        <li>Resource library</li>
+                    </ul>
                 </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2025 Sfeer & Foto's | Eindopdracht-Webmarkup-INF-1.1 | Project structure example</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navTabs = document.querySelector('.nav-tabs');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navTabs.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !navTabs.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navTabs.classList.remove('active');
+            }
+        });
+
+        // Close menu when clicking a nav tab
+        const navButtons = document.querySelectorAll('.nav-tab');
+        navButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navTabs.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
