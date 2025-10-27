@@ -1,0 +1,125 @@
+/* Header Styles */
+header {
+    background: #3A7359;
+    color: var(--color-text-default-default);
+    padding: var(--size-space-400) 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 var(--size-space-800);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--size-space-200);
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: var(--size-space-200);
+    z-index: 101;
+}
+
+.hamburger-line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.hamburger-menu.active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.hamburger-menu.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+.nav-tabs {
+    display: flex;
+    gap: var(--size-space-200);
+    padding: var(--size-space-200);
+    border-radius: var(--size-radius-200);
+}
+
+.nav-tab {
+    padding: var(--size-space-200) var(--size-space-400);
+    background: transparent;
+    border: none;
+    border-radius: var(--size-radius-200);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: var(--body-base-font-family);
+    font-size: var(--crimson-text-small-font-size);
+}
+
+.nav-tab:hover {
+    background: #2A5B78;
+}
+
+.nav-tab.active {
+    background: #2A5B78;
+}
+
+/* Header Mobile Styles */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: row;
+        gap: var(--size-space-400);
+        position: relative;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .nav-tabs {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: #3A7359;
+        padding: var(--size-space-400);
+        gap: 0;
+        border-radius: 0;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+    }
+
+    .nav-tabs.active {
+        max-height: 500px;
+        opacity: 1;
+        padding: var(--size-space-400);
+    }
+
+    .nav-tab {
+        width: 100%;
+        text-align: left;
+        padding: var(--size-space-400);
+        border-radius: 0;
+    }
+}
