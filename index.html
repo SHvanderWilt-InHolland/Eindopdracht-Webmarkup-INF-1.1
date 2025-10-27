@@ -24,11 +24,16 @@
                     <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs">
                 </div>
             </div>
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
             <div class="nav-tabs">
                 <button class="nav-tab active">Home</button>
-                <button class="nav-tab">Voorzieningen & Faciliteiten</button>
-                <button class="nav-tab">Sfeer & Foto's</button>
-                <button class="nav-tab">Opening & Bereikbaarheid</button>
+                <button class="nav-tab">Faciliteiten</button>
+                <button class="nav-tab">Sfeer</button>
+                <button class="nav-tab">Openingstijden</button>
                 <button class="nav-tab">Reviews</button>
                 <button class="nav-tab">Contact</button>
             </div>
@@ -93,6 +98,26 @@
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
+                <div class="footer-section footer-logo-section">
+                    <div class="footer-logo">
+                        <img src="img/WS.svg" alt="WorkSpace Logo">
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="#" aria-label="X (Twitter)">
+                            <img src="img/X Logo.svg" alt="X">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="img/Logo Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <img src="img/Logo YouTube.svg" alt="YouTube">
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="img/LinkedIn.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+
                 <div class="footer-section">
                     <h3>Use cases</h3>
                     <ul>
@@ -134,6 +159,34 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navTabs = document.querySelector('.nav-tabs');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navTabs.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !navTabs.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navTabs.classList.remove('active');
+            }
+        });
+
+        // Close menu when clicking a nav tab
+        const navButtons = document.querySelectorAll('.nav-tab');
+        navButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navTabs.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
