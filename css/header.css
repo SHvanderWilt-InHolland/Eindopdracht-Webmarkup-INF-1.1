@@ -72,14 +72,23 @@ header {
     transition: all 0.3s ease;
     font-family: var(--body-base-font-family);
     font-size: var(--crimson-text-small-font-size);
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-tab:focus {
+    outline: none;
 }
 
 .nav-tab:hover {
     background: #2A5B78;
+    color: black;
 }
 
 .nav-tab.active {
     background: #2A5B78;
+    color: black;
 }
 
 /* Header Mobile Styles */
