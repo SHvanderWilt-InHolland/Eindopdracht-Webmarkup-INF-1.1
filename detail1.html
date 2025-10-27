@@ -1,101 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voorzieningen & Faciliteiten</title>
     <!-- CSS files should be linked from /css folder -->
+    <link rel="stylesheet" href="css/styleguide.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/detail1.css">
-    <style>
-    </style>
+    <!-- Import Google Fonts used in styleguide -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
 </head>
-<body>
+
+<body data-color-mode="SDS-light">
     <header>
         <div class="header-container">
             <div class="logo">
-                <div class="logo-icon">🏢</div>
-                <h1>Voorzieningen & Faciliteiten</h1>
+                <div class="logo-icon">
+                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs">
+                </div>
             </div>
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
             <div class="nav-tabs">
-                <button class="nav-tab">Home</button>
-                <button class="nav-tab active">Voorzieningen & Faciliteiten</button>
-                <button class="nav-tab">Sfeer & Foto's</button>
-                <button class="nav-tab">Opening & Bereikbaarheid</button>
-                <button class="nav-tab">Reviews</button>
-                <button class="nav-tab">Contact</button>
+                <a href="index.html" class="nav-tab">Home</a>
+                <a href="detail1.html" class="nav-tab active">Faciliteiten</a>
+                <a href="detail2.html" class="nav-tab">Sfeer</a>
+                <a href="detail3.html" class="nav-tab">Openingstijden</a>
+                <a href="detail4.html" class="nav-tab">Reviews</a>
+                <a href="contact.html" class="nav-tab">Contact</a>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="content-section">
-            <div class="content-image">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-image">
                 <div class="placeholder-image">
-                    <img src="img/sample-image.jpg" alt="Moderne werkruimtes" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                    <img src="img/phc-software-7G6J0eXlmX0-unsplash.jpg" alt="Open office with several desks">
                 </div>
             </div>
-            <div class="content-text">
-                <h2>Moderne Werkruimtes</h2>
-                <p class="subtitle">Professionele omgeving voor optimale productiviteit</p>
-                <p>Onze state-of-the-art werkruimtes zijn ontworpen met de moderne professional in gedachten. Elke ruimte is uitgerust met ergonomische meubilair, hoogwaardige technologie en alle voorzieningen die u nodig heeft voor efficiënt werken.</p>
-                <p>Van flexibele werkplekken tot private kantoren, wij bieden oplossingen die perfect aansluiten bij uw behoeften. Onze faciliteiten worden dagelijks onderhouden volgens de hoogste standaarden van kwaliteit en hygiëne.</p>
-                <ul class="feature-list">
-                    <li>24/7 toegang tot alle faciliteiten</li>
-                    <li>High-speed glasvezel internetverbinding</li>
-                    <li>Ergonomische werkstations</li>
-                    <li>Klimaatbeheersing in elke ruimte</li>
+            <div class="hero-text">
+                <h2>Onze Faciliteiten</h2>
+                <p>Bij WorkSpace geloven we dat de juiste omgeving het verschil maakt. Onze faciliteiten zijn ontworpen
+                    om productiviteit, comfort en samenwerking te stimuleren. Of je nu in alle rust wilt werken of wilt
+                    brainstormen met collega's — bij ons vind je alles wat je nodig hebt onder één dak.</p>
+                <p>Onze faciliteiten omvatten onder meer:</p>
+                <ul>
+                    <li>Flexibele werkplekken: kies tussen open bureaus of afgesloten kantoren.</li>
+                    <li>Moderne vergaderruimtes: volledig uitgerust met schermen, whiteboards en videovergadertechnologie.</li>
+                    <li>Snel en stabiel internet: betrouwbaar WiFi in elke ruimte.</li>
+                    <li>Comfortabele lounges: ontspan of voer informele gesprekken in een inspirerende omgeving.</li>
+                    <li>24/7 toegang: werk wanneer het jou uitkomt, dag en nacht.</li>
                 </ul>
-                <a href="#contact" class="cta-button">Meer Informatie</a>
+                <p>Werk slimmer, niet harder — in een ruimte die meegroeit met jouw ambities.</p>
             </div>
         </div>
 
-        <div class="content-section">
-            <div class="content-image">
-                <div class="placeholder-image">📊 Vergaderfaciliteiten</div>
+        <!-- Hero Section 2 -->
+        <div class="hero-section-2">
+            <div class="hero-image-2">
+                <div class="placeholder-image-2">
+                    <img src="img/yann-maignan-rRiAzFkJPMo-unsplash.jpg" alt="Workspace relaxation area">
+                </div>
             </div>
-            <div class="content-text">
-                <h2>Vergaderfaciliteiten</h2>
-                <p class="subtitle">Professionele ruimtes voor elke bijeenkomst</p>
-                <p>Onze uitgebreide collectie vergaderzalen varieert van intieme overlegruimtes voor kleine teams tot grote conferentiezalen voor bedrijfsbrede presentaties. Elke ruimte is uitgerust met de nieuwste audiovisuele technologie.</p>
-                <p>Flexibele configuraties maken het mogelijk om elke ruimte aan te passen aan uw specifieke behoeften. Of het nu gaat om een brainstormsessie, client presentatie, of strategische planning - wij hebben de perfecte setting.</p>
-                <ul class="feature-list">
-                    <li>Interactieve whiteboards en displays</li>
-                    <li>Video conferencing faciliteiten</li>
-                    <li>Flexibele meubelopstellingen</li>
-                    <li>Catering service beschikbaar</li>
+            <div class="hero-text-2">
+                <h2>Onze Voorzieningen</h2>
+                <p>Bij WorkSpace draait het niet alleen om werken, maar ook om welzijn. Daarom zorgen wij voor
+                    voorzieningen die je dagelijkse routine aangenamer en efficiënter maken.</p>
+                <p>Wat je bij ons mag verwachten:</p>
+                <ul>
+                    <li>Gratis koffie en thee: begin je dag met een verse espresso of een rustgevende kop thee.</li>
+                    <li>Volledig ingerichte keuken: ideaal voor een snelle lunch of gezamenlijke pauze.</li>
+                    <li>Print- en kopieerfaciliteiten: alles wat je nodig hebt om professioneel voor de dag te komen.</li>
+                    <li>Kluisjes en opslag: bewaar je spullen veilig terwijl je werkt.</li>
+                    <li>Evenementen & workshops: neem deel aan inspirerende sessies met andere ondernemers en creatieven.</li>
+                    <li>Duurzame inrichting: met aandacht voor milieu en comfort, van hergebruikte meubels tot energiezuinige verlichting.</li>
                 </ul>
-                <a href="#booking" class="cta-button">Reserveer Nu</a>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="content-image">
-                <div class="placeholder-image">⚡ Technische Support</div>
-            </div>
-            <div class="content-text">
-                <h2>Technische Support</h2>
-                <p class="subtitle">24/7 ondersteuning voor al uw technische behoeften</p>
-                <p>Ons ervaren IT-team staat klaar om u te helpen met alle technische vraagstukken. Van het oplossen van netwerk problemen tot het installeren van specialized software - wij zorgen ervoor dat u zich kunt concentreren op uw werk.</p>
-                <p>Met proactieve monitoring en preventief onderhoud minimaliseren we downtime en maximaliseren we de prestaties van alle systemen. Onze helpdesk is bereikbaar via telefoon, email, of walk-in service.</p>
-                <ul class="feature-list">
-                    <li>Dedicated IT helpdesk team</li>
-                    <li>Remote en on-site ondersteuning</li>
-                    <li>Proactieve systeem monitoring</li>
-                    <li>Software installatie en updates</li>
-                </ul>
-                <a href="#support" class="cta-button">Contact Support</a>
-            </div>
-        </div>
-
-        <div class="video-section">
-            <h2>Faciliteiten Rondleiding</h2>
-            <p style="color: #6c757d; margin-bottom: 2rem;">Bekijk onze moderne faciliteiten in actie</p>
-            <div class="video-container">
-                <!-- Videos should be referenced from /media folder -->
-                <video controls>
-                    <source src="media/sample-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <p>Bij WorkSpace draait het om balans — tussen werk, ontspanning en inspiratie.</p>
             </div>
         </div>
     </main>
@@ -103,43 +95,95 @@
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section">
-                    <h3>Over Onze Faciliteiten</h3>
-                    <p>Wij bieden toonaangevende werkruimte oplossingen met moderne faciliteiten, uitstekende service en flexibele voorwaarden. Uw succes is onze prioriteit.</p>
+                <div class="footer-section footer-logo-section">
+                    <div class="footer-logo">
+                        <img src="img/WS.svg" alt="WorkSpace Logo">
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="#" aria-label="X (Twitter)">
+                            <img src="img/X Logo.svg" alt="X">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="img/Logo Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <img src="img/Logo YouTube.svg" alt="YouTube">
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="img/LinkedIn.svg" alt="LinkedIn">
+                        </a>
+                    </div>
                 </div>
-                
+
                 <div class="footer-section">
-                    <h3>Services</h3>
+                    <h3>Use cases</h3>
                     <ul>
-                        <li><a href="#">Werkruimte Verhuur</a></li>
-                        <li><a href="#">Vergaderzalen</a></li>
-                        <li><a href="#">IT Support</a></li>
-                        <li><a href="#">Catering Services</a></li>
-                        <li><a href="#">Event Planning</a></li>
+                        <li>UI Design</li>
+                        <li>UX Design</li>
+                        <li>Wireframing</li>
+                        <li>Diagramming</li>
+                        <li>Brainstorming</li>
+                        <li>Online whiteboard</li>
+                        <li>Team collaboration</li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>📍 Hoofddorp, North Holland</p>
-                    <p>📧 info@faciliteiten.nl</p>
-                    <p>📞 +31 (0)20 123 4567</p>
-                    <p>🌐 www.voorzieningen.nl</p>
+                    <h3>Explores</h3>
+                    <ul>
+                        <li>Design</li>
+                        <li>Prototyping</li>
+                        <li>Development features</li>
+                        <li>Design systems</li>
+                        <li>Collaboration features</li>
+                        <li>Design process</li>
+                        <li>FigJam</li>
+                    </ul>
                 </div>
-                
+
                 <div class="footer-section">
-                    <h3>Openingstijden</h3>
-                    <p>Maandag - Vrijdag: 08:00 - 18:00</p>
-                    <p>Zaterdag: 09:00 - 15:00</p>
-                    <p>Zondag: Gesloten</p>
-                    <p>24/7 Toegang voor leden</p>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>Blog</li>
+                        <li>Best practices</li>
+                        <li>Colors</li>
+                        <li>Color wheel</li>
+                        <li>Support</li>
+                        <li>Developers</li>
+                        <li>Resource library</li>
+                    </ul>
                 </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 Voorzieningen & Faciliteiten | Eindopdracht-Webmarkup-INF-1.1 | Project structure example</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navTabs = document.querySelector('.nav-tabs');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navTabs.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !navTabs.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navTabs.classList.remove('active');
+            }
+        });
+
+        // Close menu when clicking a nav tab
+        const navButtons = document.querySelectorAll('.nav-tab');
+        navButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navTabs.classList.remove('active');
+            });
+        });
+    </script>
 </body>
+
 </html>
