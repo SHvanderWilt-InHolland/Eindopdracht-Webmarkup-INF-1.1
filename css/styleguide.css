@@ -186,3 +186,34 @@ You can apply the theme on any DOM node, not just the `body`
     --color-primitives-white-1000
   );
 }
+
+/* Global Image Hover Effect */
+img {
+  transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  filter: brightness(1.1);
+}
+
+/* Active/tap effect for mobile devices */
+img:active {
+  transform: scale(1.05);
+  opacity: 0.9;
+  filter: brightness(1.1);
+}
+
+/* Alternative: Add animation on touch for better mobile experience */
+@media (hover: none) and (pointer: coarse) {
+  img {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  img:active {
+    transform: scale(0.98);
+    opacity: 0.85;
+  }
+}
