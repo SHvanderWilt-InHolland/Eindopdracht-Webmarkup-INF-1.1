@@ -6,221 +6,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reviews</title>
     <!-- CSS files should be linked from /css folder -->
+    <link rel="stylesheet" href="css/styleguide.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/detail4.css">
+    <!-- Import Google Fonts used in styleguide -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body data-color-mode="SDS-light">
     <header>
         <div class="header-container">
             <div class="logo">
-                <div class="logo-icon">⭐</div>
-                <h1>Reviews</h1>
+                <div class="logo-icon">
+                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs">
+                </div>
             </div>
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
             <div class="nav-tabs">
-                <button class="nav-tab">Home</button>
-                <button class="nav-tab">Voorzieningen & Faciliteiten</button>
-                <button class="nav-tab">Sfeer & Foto's</button>
-                <button class="nav-tab">Opening & Bereikbaarheid</button>
-                <button class="nav-tab active">Reviews</button>
-                <button class="nav-tab">Contact</button>
+                <a href="index.html" class="nav-tab">Home</a>
+                <a href="detail1.html" class="nav-tab">Faciliteiten</a>
+                <a href="detail2.html" class="nav-tab">Sfeer</a>
+                <a href="detail3.html" class="nav-tab">Openingstijden</a>
+                <a href="detail4.html" class="nav-tab active">Reviews</a>
+                <a href="contact.html" class="nav-tab">Contact</a>
             </div>
         </div>
     </header>
 
     <main>
-        <!-- Page Header -->
-        <div class="page-header">
-            <h2>⭐ Klantrecensies</h2>
-            <p class="subtitle">Ontdek wat onze klanten over ons zeggen</p>
-            <p>Lees de ervaringen van onze tevreden klanten en ontdek waarom zij kiezen voor onze werkruimte
-                oplossingen.</p>
-        </div>
-
-        <!-- Recent Reviews Section -->
+        <!-- Reviews Section -->
         <div class="reviews-section">
-            <div class="section-header">
-                <h3>Recente Reviews</h3>
-                <p class="subtitle">De nieuwste feedback van onze klanten</p>
+            <h2>Reviews</h2>
+
+            <!-- Row 1 -->
+            <div class="reviews-row">
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Perfecte werkplek in hartje stad</h4>
+                    </div>
+                    <div class="review-content">
+                        "Fantastische locatie met alle voorzieningen binnen handbereik. Moderne werkplekken, snel
+                        internet en een prettige werksfeer. Ideaal voor productief werken!"
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Inspirerende omgeving</h4>
+                    </div>
+                    <div class="review-content">
+                        "De open en lichte ruimtes zorgen voor creativiteit en focus. Fijne community van professionals.
+                        Een echte aanrader voor freelancers en kleine teams."
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Top faciliteiten</h4>
+                    </div>
+                    <div class="review-content">
+                        "Uitstekende koffie, comfortabele stoelen en stille werkplekken wanneer nodig. Vergaderruimtes
+                        zijn modern ingericht. Hier werk je met plezier."
+                    </div>
+                </div>
             </div>
 
-            <div class="reviews-grid">
+            <!-- Row 2 -->
+            <div class="reviews-row">
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-number">1</div>
-                        <div class="review-info">
-                            <h4>Uitstekende Service</h4>
-                            <div class="review-rating">
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                            </div>
-                            <div class="review-meta">2 dagen geleden</div>
-                        </div>
+                        <h4>Uitstekende prijs-kwaliteit</h4>
                     </div>
                     <div class="review-content">
-                        "De faciliteiten zijn van topkwaliteit en het personeel is ontzettend behulpzaam. Ik kan me geen
-                        betere werkruimte voorstellen voor mijn bedrijf."
+                        "Voor wat je betaalt krijg je enorm veel terug. Flexibele abonnementen en geen verborgen kosten.
+                        Echt een slimme keuze voor startende ondernemers."
                     </div>
-                    <div class="review-author">— Sarah van den Berg, CEO TechStart</div>
                 </div>
 
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-number">2</div>
-                        <div class="review-info">
-                            <h4>Perfecte Locatie</h4>
-                            <div class="review-rating">
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                            </div>
-                            <div class="review-meta">5 dagen geleden</div>
-                        </div>
+                        <h4>Geweldige community</h4>
                     </div>
                     <div class="review-content">
-                        "Fantastische bereikbaarheid en moderne inrichting. De vergaderzalen zijn goed uitgerust en de
-                        wifi is supersnel. Absoluut een aanrader!"
+                        "Niet alleen een werkplek, maar een netwerk van gelijkgestemden. Regelmatige events en altijd
+                        iemand voor een goede brainstormsessie."
                     </div>
-                    <div class="review-author">— Mark Jansen, Freelance Designer</div>
                 </div>
 
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-number">3</div>
-                        <div class="review-info">
-                            <h4>Professionele Omgeving</h4>
-                            <div class="review-rating">
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">☆</span>
-                            </div>
-                            <div class="review-meta">1 week geleden</div>
-                        </div>
+                        <h4>Professioneel en gezellig</h4>
                     </div>
                     <div class="review-content">
-                        "Zeer professionele werkruimte met alle voorzieningen die je nodig hebt. Het enige minpuntje is
-                        dat de koffie wat sterker mag zijn!"
+                        "De perfecte balans tussen zakelijk en toegankelijk. Personeel is vriendelijk en denkt mee.
+                        Voelt als een tweede thuis."
                     </div>
-                    <div class="review-author">— Lisa de Wit, Marketing Manager</div>
                 </div>
             </div>
-        </div>
 
-        <!-- Statistics Section -->
-        <div class="stats-section">
-            <h2>Onze Waardering in Cijfers</h2>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">4.8</div>
-                    <div class="stat-label">Gemiddelde Score</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">250+</div>
-                    <div class="stat-label">Reviews</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">96%</div>
-                    <div class="stat-label">Zou Aanbevelen</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">5★</div>
-                    <div class="stat-label">Meest Gegeven</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Top Reviews Section -->
-        <div class="reviews-section">
-            <div class="section-header">
-                <h3>Top Beoordelingen</h3>
-                <p class="subtitle">Onze best beoordeelde ervaringen</p>
-            </div>
-
-            <div class="reviews-grid">
+            <!-- Row 3 -->
+            <div class="reviews-row">
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-number">4</div>
-                        <div class="review-info">
-                            <h4>Geweldige Sfeer</h4>
-                            <div class="review-rating">
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                            </div>
-                            <div class="review-meta">2 weken geleden</div>
-                        </div>
+                        <h4>Flexibiliteit op zijn best</h4>
                     </div>
                     <div class="review-content">
-                        "De werksfeer is inspirerend en motiverend. Ik voel me direct thuis en kan optimaal presteren.
-                        De andere huurders zijn ook erg vriendelijk."
+                        "Werk wanneer jij wilt, waar jij wilt in het gebouw. 24/7 toegang en altijd een plekje
+                        beschikbaar. Geen gedoe, gewoon werken."
                     </div>
-                    <div class="review-author">— Tom Bakker, Software Developer</div>
                 </div>
 
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-number">5</div>
-                        <div class="review-info">
-                            <h4>Alles Perfect Geregeld</h4>
-                            <div class="review-rating">
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                            </div>
-                            <div class="review-meta">3 weken geleden</div>
-                        </div>
+                        <h4>Modern en duurzaam</h4>
                     </div>
                     <div class="review-content">
-                        "Van het eerste contact tot de dagelijkse service - alles verloopt vlekkeloos. De flexibiliteit
-                        in contracten is een grote plus voor ons groeiende bedrijf."
+                        "Bewuste keuzes in inrichting en faciliteiten. Energiezuinig gebouw met groene touch. Fijn om te
+                        weten dat je duurzaam ondernemer bent."
                     </div>
-                    <div class="review-author">— Emma Visser, Operations Director</div>
                 </div>
 
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-number">6</div>
-                        <div class="review-info">
-                            <h4>Uitstekende Voorzieningen</h4>
-                            <div class="review-rating">
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                                <span class="star">★</span>
-                            </div>
-                            <div class="review-meta">1 maand geleden</div>
-                        </div>
+                        <h4>Inspirerend netwerk</h4>
                     </div>
                     <div class="review-content">
-                        "Moderne technologie, comfortabele werkplekken en uitstekende koffie. Wat wil je nog meer? Dit
-                        is de perfecte plek om productief te zijn."
+                        "Door de diverse mix van bedrijven ontstaan verrassende samenwerkingen. Heb hier al meerdere
+                        klanten ontmoet. Onbetaalbaar!"
                     </div>
-                    <div class="review-author">— Peter de Jong, Consultant</div>
                 </div>
             </div>
-        </div>
 
-        <!-- Video Section -->
-        <div class="video-section">
-            <h2>Klant Testimonials</h2>
-            <p style="color: #6c757d; margin-bottom: 2rem;">Hoor direct van onze klanten over hun ervaringen</p>
-            <div class="video-container">
-                <!-- Videos should be referenced from /media folder -->
-                <video controls>
-                    <source src="media/sample-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <!-- Row 4 -->
+            <div class="reviews-row">
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Altijd goed bereikbaar</h4>
+                    </div>
+                    <div class="review-content">
+                        "Vlakbij OV en parkeren is geen probleem. Centrale ligging bespaart reistijd. Klanten vinden het
+                        kantoor moeiteloos."
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Stijlvol en functioneel</h4>
+                    </div>
+                    <div class="review-content">
+                        "Het design is niet alleen mooi, maar ook praktisch doordacht. Goede akoestiek en veel daglicht
+                        maken lange werkdagen aangenaam."
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <h4>Uitstekende service</h4>
+                    </div>
+                    <div class="review-content">
+                        "Van technical support tot receptiediensten, alles is perfect geregeld. Je kunt je volledig
+                        focussen op je werk zonder zorgen."
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -228,48 +184,95 @@
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section">
-                    <h3>Klantrecensies</h3>
-                    <p>Wij waarderen de feedback van onze klanten enorm. Elke review helpt ons om onze service te
-                        verbeteren en de beste werkruimte ervaring te bieden.</p>
+                <div class="footer-section footer-logo-section">
+                    <div class="footer-logo">
+                        <img src="img/WS.svg" alt="WorkSpace Logo">
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="#" aria-label="X (Twitter)">
+                            <img src="img/X Logo.svg" alt="X">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="img/Logo Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <img src="img/Logo YouTube.svg" alt="YouTube">
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="img/LinkedIn.svg" alt="LinkedIn">
+                        </a>
+                    </div>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Beoordeel Ons</h3>
+                    <h3>Use cases</h3>
                     <ul>
-                        <li><a href="#">Schrijf een Review</a></li>
-                        <li><a href="#">Google Reviews</a></li>
-                        <li><a href="#">Trustpilot</a></li>
-                        <li><a href="#">LinkedIn Reviews</a></li>
-                        <li><a href="#">Facebook Reviews</a></li>
+                        <li>UI Design</li>
+                        <li>UX Design</li>
+                        <li>Wireframing</li>
+                        <li>Diagramming</li>
+                        <li>Brainstorming</li>
+                        <li>Online whiteboard</li>
+                        <li>Team collaboration</li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Feedback</h3>
+                    <h3>Explores</h3>
                     <ul>
-                        <li><a href="#">Suggestie Indienen</a></li>
-                        <li><a href="#">Klacht Melden</a></li>
-                        <li><a href="#">Compliment Geven</a></li>
-                        <li><a href="#">Verbetering Voorstellen</a></li>
-                        <li><a href="#">Enquête Deelnemen</a></li>
+                        <li>Design</li>
+                        <li>Prototyping</li>
+                        <li>Development features</li>
+                        <li>Design systems</li>
+                        <li>Collaboration features</li>
+                        <li>Design process</li>
+                        <li>FigJam</li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>📍 Hoofddorp, North Holland</p>
-                    <p>📧 reviews@workspace.nl</p>
-                    <p>📞 +31 (0)20 123 4567</p>
-                    <p>⭐ Gemiddelde: 4.8/5 sterren</p>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>Blog</li>
+                        <li>Best practices</li>
+                        <li>Colors</li>
+                        <li>Color wheel</li>
+                        <li>Support</li>
+                        <li>Developers</li>
+                        <li>Resource library</li>
+                    </ul>
                 </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2025 Reviews | Eindopdracht-Webmarkup-INF-1.1 | Project structure example</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navTabs = document.querySelector('.nav-tabs');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navTabs.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !navTabs.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navTabs.classList.remove('active');
+            }
+        });
+
+        // Close menu when clicking a nav tab
+        const navButtons = document.querySelectorAll('.nav-tab');
+        navButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navTabs.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
