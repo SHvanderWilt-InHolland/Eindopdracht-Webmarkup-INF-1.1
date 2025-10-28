@@ -57,6 +57,8 @@ footer {
     line-height: var(--crimson-text-heading-6-line-height);
     color: black;
     margin-bottom: var(--size-space-400);
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .footer-section p,
@@ -65,6 +67,7 @@ footer {
     font-size: var(--crimson-text-normal-font-size);
     color: black;
     margin-bottom: var(--size-space-200);
+    word-spacing: 2px;
 }
 
 .footer-section ul {

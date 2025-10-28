@@ -72,6 +72,7 @@ main {
     line-height: var(--crimson-text-normal-line-height);
     color: var(--color-text-default-default);
     margin-bottom: var(--size-space-400);
+    text-indent: 2em;
 }
 
 /* Hero Section 2 */

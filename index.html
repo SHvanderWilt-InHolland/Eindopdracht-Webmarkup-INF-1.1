@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WorkSpace biedt flexibele werkplekken in hartje stad. Moderne kantoorruimtes, vergaderruimtes en community zones voor ondernemers, freelancers en teams. 24/7 toegang en uitstekende faciliteiten.">
+    <meta name="keywords" content="werkplek, coworking, kantoorruimte, flexibel werken, shared office">
+    <meta name="author" content="WorkSpace Team">
     <title>Home</title>
     <!-- CSS files should be linked from /css folder -->
     <link rel="stylesheet" type="text/css" href="css/styleguide.css">
@@ -46,7 +49,7 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="hero-section">
+        <section class="hero-section" aria-labelledby="hero-heading-1">
             <figure class="hero-image">
                 <div class="placeholder-image">
                     <img src="img/adolfo-felix-PG8NyM_Mcts-unsplash.jpg"
@@ -55,7 +58,7 @@
                 <figcaption class="visually-hidden">Lichte werkruimte met bureaus en stoelen</figcaption>
             </figure>
             <article class="hero-text">
-                <h1>Welkom bij <strong>WorkSpace</strong></h1>
+                <h2 id="hero-heading-1">Welkom bij <strong>WorkSpace</strong></h2>
                 <p>Bij WorkSpace creëren we <em>flexibele</em> en <em>inspirerende</em> werkplekken voor freelancers, startups en
                     bedrijven van elke omvang.
                     Onze moderne kantoren zijn volledig ingericht, beschikken over snelle wifi en bieden toegang tot
@@ -67,7 +70,7 @@
         </section>
 
         <!-- Hero Section 2 -->
-        <section class="hero-section-2">
+        <section class="hero-section-2" aria-labelledby="hero-heading-2">
             <figure class="hero-image-2">
                 <div class="placeholder-image-2">
                     <img src="img/petr-magera-HuWm7malJ18-unsplash.jpg"
@@ -76,7 +79,7 @@
                 <figcaption class="visually-hidden">Open werkruimte met monitoren</figcaption>
             </figure>
             <article class="hero-text-2">
-                <h2><strong>Flexibel</strong> huren, maximale vrijheid</h2>
+                <h2 id="hero-heading-2"><strong>Flexibel</strong> huren, maximale vrijheid</h2>
                 <p>Werk waar en wanneer jij wilt. Met onze <em>flexibele huurformules</em> bepaal je zelf of je een dag, week of
                     maand wilt blijven.
                     Alles is inbegrepen — van schoonmaak tot koffie. Zo kun jij je volledig richten op wat echt telt:
@@ -85,7 +88,7 @@
         </section>
 
         <!-- Hero Section 3 -->
-        <section class="hero-section-3">
+        <section class="hero-section-3" aria-labelledby="hero-heading-3">
             <figure class="hero-image-3">
                 <div class="placeholder-image-3">
                     <img src="img/rodeo-project-management-software-lPP1ns8krX8-unsplash.jpg"
@@ -94,7 +97,7 @@
                 <figcaption class="visually-hidden">Welkomstbord bij WorkSpace</figcaption>
             </figure>
             <article class="hero-text-3">
-                <h2>Word onderdeel van onze <strong>community</strong></h2>
+                <h2 id="hero-heading-3">Word onderdeel van onze <strong>community</strong></h2>
                 <p>Bij WorkSpace werk je niet alleen, maar <em>samen</em> met gelijkgestemde professionals.
                     Neem deel aan netwerkevents, workshops of borrels, en laat je inspireren door anderen.
                     Samen bouwen we aan een plek waar werk en welzijn in balans zijn.</p>
@@ -111,13 +114,13 @@
                     </div>
                     <div class="social-media-icons">
                         <a href="#" aria-label="X (Twitter)">
-                            <img src="img/X Logo.svg" alt="X" title="Volg ons op X">
+                            <img src="img/X-Logo.svg" alt="X" title="Volg ons op X">
                         </a>
                         <a href="#" aria-label="Instagram">
-                            <img src="img/Logo Instagram.svg" alt="Instagram" title="Volg ons op Instagram">
+                            <img src="img/Logo-Instagram.svg" alt="Instagram" title="Volg ons op Instagram">
                         </a>
                         <a href="#" aria-label="YouTube">
-                            <img src="img/Logo YouTube.svg" alt="YouTube" title="Bekijk onze YouTube">
+                            <img src="img/Logo-YouTube.svg" alt="YouTube" title="Bekijk onze YouTube">
                         </a>
                         <a href="#" aria-label="LinkedIn">
                             <img src="img/LinkedIn.svg" alt="LinkedIn" title="Verbind op LinkedIn">
@@ -169,6 +172,12 @@
             <p>&copy; 2025 WorkSpace. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Cookies Message -->
+    <div class="cookies-message" id="cookiesMessage">
+        <p>Deze website gebruikt cookies om uw ervaring te verbeteren. <a href="#">Meer informatie</a></p>
+        <button onclick="document.getElementById('cookiesMessage').style.display='none'">Accepteren</button>
+    </div>
 
     <script>
         // Hamburger menu toggle
