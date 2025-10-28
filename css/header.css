@@ -61,6 +61,7 @@ header {
     gap: var(--size-space-200);
     padding: var(--size-space-200);
     border-radius: var(--size-radius-200);
+    align-items: center;
 }
 
 .nav-tab {
@@ -89,6 +90,26 @@ header {
 .nav-tab.active {
     background: #2A5B78;
     color: black;
+}
+
+.login-btn {
+    padding: var(--size-space-200) var(--size-space-600);
+    background: #2A5B78;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: var(--crimson-text-normal-font-family);
+    font-size: var(--crimson-text-small-font-size);
+    text-decoration: none;
+    display: inline-block;
+    margin-left: var(--size-space-400);
+}
+
+.login-btn:hover {
+    opacity: 0.9;
+    background: #1f4a5f;
 }
 
 /* Header Mobile Styles */
@@ -130,5 +151,13 @@ header {
         text-align: left;
         padding: var(--size-space-400);
         border-radius: 0;
+    }
+
+    .login-btn {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: var(--size-space-200);
+        padding: var(--size-space-400);
     }
 }

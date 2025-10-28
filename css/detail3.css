@@ -181,6 +181,11 @@ main {
         padding: var(--size-space-600);
         margin: 0 45px;
     }
+    .accordion-section h2 {
+        max-width: 100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
 
     .accordion-item {
         width: 100%;
