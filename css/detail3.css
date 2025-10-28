@@ -49,7 +49,8 @@ main {
 }
 
 .hero-text h1,
-.hero-text h2 {
+.hero-text h2,
+.hero-text h3 {
     font-family: var(--crimson-text-heading-3-font-family);
     font-size: var(--crimson-text-heading-3-font-size);
     font-weight: var(--crimson-text-heading-3-font-weight);
@@ -224,7 +225,8 @@ main {
     }
 
     .hero-text h1,
-    .hero-text h2 {
+    .hero-text h2,
+    .hero-text h3 {
         font-size: var(--crimson-text-mobile-heading-2-font-size);
         line-height: var(--crimson-text-mobile-heading-2-line-height);
     }
