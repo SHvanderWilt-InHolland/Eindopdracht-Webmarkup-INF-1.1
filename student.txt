@@ -1,6 +1,5 @@
-Student Information File
-
-This file contains student-related information for the Eindopdracht-Webmarkup-INF-1.1 project.
-
-Course: Web Markup
-Program: INF-1.1
+o	Student name: Sebastiaan van der Wilt 
+o	Student number: 745982 
+o	Student class: HAINF25VT1B 
+o	GitHub Repository: https://github.com/SHvanderWilt-InHolland/Eindopdracht-Webmarkup-INF-1.1
+o	GitHub Pages URL: https://shvanderwilt-inholland.github.io/Eindopdracht-Webmarkup-INF-1.1/ 
