@@ -33,7 +33,8 @@ main {
 }
 
 .hero-text h1,
-.hero-text h2 {
+.hero-text h2,
+.hero-text h3 {
     font-family: var(--crimson-text-heading-3-font-family);
     font-size: var(--crimson-text-heading-3-font-size);
     font-weight: var(--crimson-text-heading-3-font-weight);
@@ -114,6 +115,16 @@ main {
     gap: var(--size-space-600);
 }
 
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    display: none;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -161,6 +172,8 @@ main {
     border-radius: 12px;
     cursor: pointer;
     transition: opacity 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .submit-btn:hover {
