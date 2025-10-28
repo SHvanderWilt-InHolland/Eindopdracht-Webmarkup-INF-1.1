@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opening & Bereikbaarheid</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <!-- CSS files should be linked from /css folder -->
-    <link rel="stylesheet" href="css/styleguide.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/detail3.css">
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/detail3.css">
     <!-- Import Google Fonts used in styleguide -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,10 @@
 
 <body data-color-mode="SDS-light">
     <header>
-        <div class="header-container">
+        <nav class="header-container">
             <div class="logo">
                 <div class="logo-icon">
-                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs">
+                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs" title="WorkSpace - Flexibele werkplekken">
                 </div>
             </div>
             <button class="hamburger-menu" aria-label="Toggle navigation menu">
@@ -40,27 +41,28 @@
                 <a href="contact.html" class="nav-tab">Contact</a>
                 <a href="#" class="login-btn">Log In</a>
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <div class="hero-section">
-            <div class="hero-image">
+        <section class="hero-section">
+            <figure class="hero-image">
                 <div class="placeholder-image">
-                    <img src="img/copernico-cLmOptqvuFQ-unsplash.jpg" alt="Workspace waiting room">
+                    <img src="img/copernico-cLmOptqvuFQ-unsplash.jpg" alt="Workspace waiting room" title="Wachtruimte WorkSpace">
                 </div>
-            </div>
-            <div class="hero-text">
-                <h2>Bereikbaarheid</h2>
-                <p>Centraal gelegen en uitstekend bereikbaar. Of u nu met het openbaar vervoer, de auto of fiets komt -
-                    onze werkruimtes zijn gemakkelijk toegankelijk en bieden alle voorzieningen die u nodig heeft voor
-                    productief werken.</p>
-            </div>
-        </div>
+                <figcaption class="visually-hidden">Moderne wachtruimte in WorkSpace</figcaption>
+            </figure>
+            <article class="hero-text">
+                <h1>Bereikbaarheid</h1>
+                <p><strong>Centraal gelegen</strong> en <em>uitstekend bereikbaar</em>. Of u nu met het <em>openbaar vervoer</em>, de auto of fiets komt -
+                    onze werkruimtes zijn <em>gemakkelijk toegankelijk</em> en bieden alle voorzieningen die u nodig heeft voor
+                    <strong>productief werken</strong>.</p>
+            </article>
+        </section>
 
         <!-- Accordion Section -->
-        <div class="accordion-section">
+        <section class="accordion-section">
             <h2>Openingstijden</h2>
             <div class="accordion-container">
                 <div class="accordion-item">
@@ -113,33 +115,33 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section footer-logo-section">
+                <aside class="footer-section footer-logo-section">
                     <div class="footer-logo">
-                        <img src="img/WS.svg" alt="WorkSpace Logo">
+                        <img src="img/WS.svg" alt="WorkSpace Logo" title="WorkSpace">
                     </div>
                     <div class="social-media-icons">
                         <a href="#" aria-label="X (Twitter)">
-                            <img src="img/X Logo.svg" alt="X">
+                            <img src="img/X Logo.svg" alt="X" title="Volg ons op X">
                         </a>
                         <a href="#" aria-label="Instagram">
-                            <img src="img/Logo Instagram.svg" alt="Instagram">
+                            <img src="img/Logo Instagram.svg" alt="Instagram" title="Volg ons op Instagram">
                         </a>
                         <a href="#" aria-label="YouTube">
-                            <img src="img/Logo YouTube.svg" alt="YouTube">
+                            <img src="img/Logo YouTube.svg" alt="YouTube" title="Bekijk onze YouTube">
                         </a>
                         <a href="#" aria-label="LinkedIn">
-                            <img src="img/LinkedIn.svg" alt="LinkedIn">
+                            <img src="img/LinkedIn.svg" alt="LinkedIn" title="Verbind op LinkedIn">
                         </a>
                     </div>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Use cases</h3>
                     <ul>
                         <li>UI Design</li>
@@ -150,9 +152,9 @@
                         <li>Online whiteboard</li>
                         <li>Team collaboration</li>
                     </ul>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Explores</h3>
                     <ul>
                         <li>Design</li>
@@ -163,9 +165,9 @@
                         <li>Design process</li>
                         <li>FigJam</li>
                     </ul>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Resources</h3>
                     <ul>
                         <li>Blog</li>
@@ -176,8 +178,11 @@
                         <li>Developers</li>
                         <li>Resource library</li>
                     </ul>
-                </div>
+                </aside>
             </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 WorkSpace. All rights reserved.</p>
         </div>
     </footer>
 

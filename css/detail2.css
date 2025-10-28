@@ -27,6 +27,7 @@ main {
     margin: 0 80px;
 }
 
+.cards-container h1,
 .cards-container h2 {
     font-family: var(--crimson-text-heading-3-font-family);
     font-size: var(--crimson-text-heading-3-font-size);
@@ -115,6 +116,7 @@ main {
     order: 1;
 }
 
+.hero-text h1,
 .hero-text h2 {
     font-family: var(--crimson-text-heading-3-font-family);
     font-size: var(--crimson-text-heading-3-font-size);
@@ -196,6 +198,7 @@ main {
         max-width: 100%;
     }
 
+    .hero-text h1,
     .hero-text h2 {
         font-size: var(--crimson-text-mobile-heading-2-font-size);
         line-height: var(--crimson-text-mobile-heading-2-line-height);

@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <!-- CSS files should be linked from /css folder -->
-    <link rel="stylesheet" href="css/styleguide.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <!-- Import Google Fonts used in styleguide -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,10 @@
 
 <body data-color-mode="SDS-light">
     <header>
-        <div class="header-container">
+        <nav class="header-container">
             <div class="logo">
                 <div class="logo-icon">
-                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs">
+                    <img src="img/WorkSpace.svg" alt="WorkSpace Logo" title="WorkSpace - Flexible werkplekken">
                 </div>
             </div>
             <button class="hamburger-menu" aria-label="Toggle navigation menu">
@@ -40,80 +41,85 @@
                 <a href="contact.html" class="nav-tab active">Contact</a>
                 <a href="#" class="login-btn">Log In</a>
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <div class="hero-section">
-            <div class="hero-text">
-                <h2>Contact</h2>
-                <p>Heeft u vragen over onze workspace of wilt u een rondleiding inplannen? Neem gerust contact met ons
+        <section class="hero-section">
+            <article class="hero-text">
+                <h1><strong>Contact</strong></h1>
+                <p>Heeft u vragen over onze workspace of wilt u een rondleiding inplannen? Neem <em>gerust</em> contact met ons
                     op. We helpen u graag verder met informatie over beschikbaarheid, prijzen en faciliteiten</p>
-                <p>Of u nu op zoek bent naar een flexibele werkplek, een vast kantoor of een vergaderruimte - ons team
-                    staat klaar om samen met u de perfecte oplossing te vinden. Vul het contactformulier in en we nemen
+                <p>Of u nu op zoek bent naar een <em>flexibele werkplek</em>, een vast kantoor of een vergaderruimte - ons team
+                    staat klaar om samen met u de <strong>perfecte oplossing</strong> te vinden. Vul het contactformulier in en we nemen
                     binnen 24 uur contact met u op</p>
-            </div>
-        </div>
+            </article>
+        </section>
 
         <!-- Contact Section -->
-        <div class="contact-section">
+        <section class="contact-section">
             <!-- Contact Form -->
             <div class="contact-form-container">
                 <div class="form-header">
                 </div>
 
                 <form class="contact-form" action="#" method="POST">
-                    <div class="form-group">
-                        <label for="name">Naam *</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
+                    <fieldset>
+                        <legend>Contactgegevens</legend>
+                        
+                        <div class="form-group">
+                            <label for="name">Naam *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="surname">Achternaam *</label>
-                        <input type="text" id="surname" name="surname" required>
-                    </div>
+                        <div class="form-group">
+                            <label for="surname">Achternaam *</label>
+                            <input type="text" id="surname" name="surname" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="message">Bericht *</label>
-                        <textarea id="message" name="message" placeholder="Typ hier uw bericht..." required></textarea>
-                    </div>
+                        <div class="form-group">
+                            <label for="message">Bericht *</label>
+                            <textarea id="message" name="message" placeholder="Typ hier uw bericht..." required></textarea>
+                        </div>
 
-                    <button type="submit" class="submit-btn">Verstuur</button>
-                    <p class="required-note">* Alle velden zijn verplicht</p>
+                        <button type="submit" class="submit-btn">Verstuur</button>
+                        <p class="required-note">* Alle velden zijn verplicht</p>
+                    </fieldset>
                 </form>
             </div>
+        </section>
     </main>
 
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section footer-logo-section">
+                <aside class="footer-section footer-logo-section">
                     <div class="footer-logo">
-                        <img src="img/WS.svg" alt="WorkSpace Logo">
+                        <img src="img/WS.svg" alt="WorkSpace Logo" title="WorkSpace">
                     </div>
                     <div class="social-media-icons">
                         <a href="#" aria-label="X (Twitter)">
-                            <img src="img/X Logo.svg" alt="X">
+                            <img src="img/X Logo.svg" alt="X" title="Volg ons op X">
                         </a>
                         <a href="#" aria-label="Instagram">
-                            <img src="img/Logo Instagram.svg" alt="Instagram">
+                            <img src="img/Logo Instagram.svg" alt="Instagram" title="Volg ons op Instagram">
                         </a>
                         <a href="#" aria-label="YouTube">
-                            <img src="img/Logo YouTube.svg" alt="YouTube">
+                            <img src="img/Logo YouTube.svg" alt="YouTube" title="Bekijk onze YouTube">
                         </a>
                         <a href="#" aria-label="LinkedIn">
-                            <img src="img/LinkedIn.svg" alt="LinkedIn">
+                            <img src="img/LinkedIn.svg" alt="LinkedIn" title="Verbind op LinkedIn">
                         </a>
                     </div>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Use cases</h3>
                     <ul>
                         <li>UI Design</li>
@@ -124,9 +130,9 @@
                         <li>Online whiteboard</li>
                         <li>Team collaboration</li>
                     </ul>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Explores</h3>
                     <ul>
                         <li>Design</li>
@@ -137,9 +143,9 @@
                         <li>Design process</li>
                         <li>FigJam</li>
                     </ul>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Resources</h3>
                     <ul>
                         <li>Blog</li>
@@ -150,8 +156,11 @@
                         <li>Developers</li>
                         <li>Resource library</li>
                     </ul>
-                </div>
+                </aside>
             </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 WorkSpace. All rights reserved.</p>
         </div>
     </footer>
 

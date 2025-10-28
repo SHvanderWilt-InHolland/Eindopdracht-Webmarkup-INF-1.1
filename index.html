@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <!-- CSS files should be linked from /css folder -->
-    <link rel="stylesheet" href="css/styleguide.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <!-- Import Google Fonts used in styleguide -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,10 @@
 
 <body data-color-mode="SDS-light">
     <header>
-        <div class="header-container">
+        <nav class="header-container">
             <div class="logo">
                 <div class="logo-icon">
-                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs">
+                    <img src="img/WorkSpace.svg" alt="WorkSpace Logo" title="WorkSpace - Flexible werkplekken">
                 </div>
             </div>
             <button class="hamburger-menu" aria-label="Toggle navigation menu">
@@ -40,91 +41,94 @@
                 <a href="contact.html" class="nav-tab">Contact</a>
                 <a href="#" class="login-btn">Log In</a>
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <div class="hero-section">
-            <div class="hero-image">
+        <section class="hero-section">
+            <figure class="hero-image">
                 <div class="placeholder-image">
                     <img src="img/adolfo-felix-PG8NyM_Mcts-unsplash.jpg"
-                        alt="White workspace hallway with desks and chairs">
+                        alt="White workspace hallway with desks and chairs" title="Modern werkplek met natuurlijk licht">
                 </div>
-            </div>
-            <div class="hero-text">
-                <h2>Welkom bij WorkSpace</h2>
-                <p>Bij WorkSpace creëren we flexibele en inspirerende werkplekken voor freelancers, startups en
+                <figcaption class="visually-hidden">Lichte werkruimte met bureaus en stoelen</figcaption>
+            </figure>
+            <article class="hero-text">
+                <h1>Welkom bij <strong>WorkSpace</strong></h1>
+                <p>Bij WorkSpace creëren we <em>flexibele</em> en <em>inspirerende</em> werkplekken voor freelancers, startups en
                     bedrijven van elke omvang.
                     Onze moderne kantoren zijn volledig ingericht, beschikken over snelle wifi en bieden toegang tot
                     vergaderruimtes,
                     koffiecorners en ontspanningszones. Of je nu één dag wilt werken of op zoek bent naar een vaste plek
                     —
                     bij ons vind je de ruimte om te groeien, te verbinden en te creëren.</p>
-            </div>
-        </div>
+            </article>
+        </section>
 
         <!-- Hero Section 2 -->
-        <div class="hero-section-2">
-            <div class="hero-image-2">
+        <section class="hero-section-2">
+            <figure class="hero-image-2">
                 <div class="placeholder-image-2">
                     <img src="img/petr-magera-HuWm7malJ18-unsplash.jpg"
-                        alt="Small open workspace with monitors and chairs">
+                        alt="Small open workspace with monitors and chairs" title="Compacte werkplek met moderne apparatuur">
                 </div>
-            </div>
-            <div class="hero-text-2">
-                <h2>Flexibel huren, maximale vrijheid</h2>
-                <p>Werk waar en wanneer jij wilt. Met onze flexibele huurformules bepaal je zelf of je een dag, week of
+                <figcaption class="visually-hidden">Open werkruimte met monitoren</figcaption>
+            </figure>
+            <article class="hero-text-2">
+                <h2><strong>Flexibel</strong> huren, maximale vrijheid</h2>
+                <p>Werk waar en wanneer jij wilt. Met onze <em>flexibele huurformules</em> bepaal je zelf of je een dag, week of
                     maand wilt blijven.
                     Alles is inbegrepen — van schoonmaak tot koffie. Zo kun jij je volledig richten op wat echt telt:
                     jouw werk.</p>
-            </div>
-        </div>
+            </article>
+        </section>
 
         <!-- Hero Section 3 -->
-        <div class="hero-section-3">
-            <div class="hero-image-3">
+        <section class="hero-section-3">
+            <figure class="hero-image-3">
                 <div class="placeholder-image-3">
                     <img src="img/rodeo-project-management-software-lPP1ns8krX8-unsplash.jpg"
-                        alt="Welcome to our workspace">
+                        alt="Welcome to our workspace" title="Welkom bij WorkSpace">
                 </div>
-            </div>
-            <div class="hero-text-3">
-                <h2>Word onderdeel van onze community</h2>
-                <p>Bij WorkSpace werk je niet alleen, maar samen met gelijkgestemde professionals.
+                <figcaption class="visually-hidden">Welkomstbord bij WorkSpace</figcaption>
+            </figure>
+            <article class="hero-text-3">
+                <h2>Word onderdeel van onze <strong>community</strong></h2>
+                <p>Bij WorkSpace werk je niet alleen, maar <em>samen</em> met gelijkgestemde professionals.
                     Neem deel aan netwerkevents, workshops of borrels, en laat je inspireren door anderen.
                     Samen bouwen we aan een plek waar werk en welzijn in balans zijn.</p>
-            </div>
-        </div>
+            </article>
+        </section>
     </main>
 
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section footer-logo-section">
+                <aside class="footer-section footer-logo-section">
                     <div class="footer-logo">
-                        <img src="img/WS.svg" alt="WorkSpace Logo">
+                        <img src="img/WS.svg" alt="WorkSpace Logo" title="WorkSpace">
                     </div>
                     <div class="social-media-icons">
                         <a href="#" aria-label="X (Twitter)">
-                            <img src="img/X Logo.svg" alt="X">
+                            <img src="img/X Logo.svg" alt="X" title="Volg ons op X">
                         </a>
                         <a href="#" aria-label="Instagram">
-                            <img src="img/Logo Instagram.svg" alt="Instagram">
+                            <img src="img/Logo Instagram.svg" alt="Instagram" title="Volg ons op Instagram">
                         </a>
                         <a href="#" aria-label="YouTube">
-                            <img src="img/Logo YouTube.svg" alt="YouTube">
+                            <img src="img/Logo YouTube.svg" alt="YouTube" title="Bekijk onze YouTube">
                         </a>
                         <a href="#" aria-label="LinkedIn">
-                            <img src="img/LinkedIn.svg" alt="LinkedIn">
+                            <img src="img/LinkedIn.svg" alt="LinkedIn" title="Verbind op LinkedIn">
                         </a>
                     </div>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Use cases</h3>
                     <ul>
-                        <li>UI Design</a></li>
+                        <li>UI Design</li>
                         <li>UX Design</li>
                         <li>Wireframing</li>
                         <li>Diagramming</li>
@@ -132,12 +136,12 @@
                         <li>Online whiteboard</li>
                         <li>Team collaboration</li>
                     </ul>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Explores</h3>
                     <ul>
-                        <li>Design</a></li>
+                        <li>Design</li>
                         <li>Prototyping</li>
                         <li>Development features</li>
                         <li>Design systems</li>
@@ -145,9 +149,9 @@
                         <li>Design process</li>
                         <li>FigJam</li>
                     </ul>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Resources</h3>
                     <ul>
                         <li>Blog</li>
@@ -158,8 +162,11 @@
                         <li>Developers</li>
                         <li>Resource library</li>
                     </ul>
-                </div>
+                </aside>
             </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 WorkSpace. All rights reserved.</p>
         </div>
     </footer>
 

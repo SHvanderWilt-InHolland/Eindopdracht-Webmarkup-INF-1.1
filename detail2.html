@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sfeer & Foto's</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <!-- CSS files should be linked from /css folder -->
-    <link rel="stylesheet" href="css/styleguide.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/detail2.css">
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/detail2.css">
     <!-- Import Google Fonts used in styleguide -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,10 @@
 
 <body data-color-mode="SDS-light">
     <header>
-        <div class="header-container">
+        <nav class="header-container">
             <div class="logo">
                 <div class="logo-icon">
-                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs">
+                    <img src="img/WorkSpace.svg" alt="Open office hallway with desks and chairs" title="WorkSpace - Flexibele werkplekken">
                 </div>
             </div>
             <button class="hamburger-menu" aria-label="Toggle navigation menu">
@@ -40,86 +41,90 @@
                 <a href="contact.html" class="nav-tab">Contact</a>
                 <a href="#" class="login-btn">Log In</a>
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
         <!-- Cards Section -->
-        <div class="cards-container">
-            <h2>Fotogalerij</h2>
+        <section class="cards-container">
+            <h1>Fotogalerij</h1>
             <div class="cards-wrapper">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/petr-magera-5shl-NRhPyc-unsplash.jpg" alt="Workspace hallway">
-                    </div>
+                <article class="card">
+                    <figure class="card-image">
+                        <img src="img/petr-magera-5shl-NRhPyc-unsplash.jpg" alt="Workspace hallway" title="Moderne kantoorgang">
+                        <figcaption class="visually-hidden">Lichte gang met moderne inrichting</figcaption>
+                    </figure>
                     <h3>Moderne Werkplekken</h3>
-                    <p>Open, lichte ruimtes met ergonomische meubels en een rustige sfeer —
-                        perfect voor productief werken of creatieve brainstormsessies.</p>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/myhq-workspaces-VCoh27vHEh0-unsplash.jpg" alt="Workspace relaxation area">
-                    </div>
+                    <p>Open, lichte ruimtes met <em>ergonomische</em> meubels en een <em>rustige sfeer</em> —
+                        perfect voor <strong>productief werken</strong> of creatieve brainstormsessies.</p>
+                </article>
+                <article class="card">
+                    <figure class="card-image">
+                        <img src="img/myhq-workspaces-VCoh27vHEh0-unsplash.jpg" alt="Workspace relaxation area" title="Ontspanningsruimte">
+                        <figcaption class="visually-hidden">Gezellige lounge voor pauzes</figcaption>
+                    </figure>
                     <h3>Vergaderruimtes met karakter</h3>
-                    <p>Van kleine overlegkamers tot grote boardrooms — onze vergaderruimtes
-                        zijn voorzien van alle gemakken, zodat elk overleg efficiënt en professioneel verloopt.</p>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/jiran-family-HR7PVFL20N0-unsplash.jpg" alt="Workspace hall waiting area">
-                    </div>
+                    <p>Van kleine overlegkamers tot grote boardrooms — onze <strong>vergaderruimtes</strong>
+                        zijn voorzien van alle gemakken, zodat elk overleg <em>efficiënt</em> en <em>professioneel</em> verloopt.</p>
+                </article>
+                <article class="card">
+                    <figure class="card-image">
+                        <img src="img/jiran-family-HR7PVFL20N0-unsplash.jpg" alt="Workspace hall waiting area" title="Wachtruimte">
+                        <figcaption class="visually-hidden">Comfortabele zitruimte in hal</figcaption>
+                    </figure>
                     <h3>Gezellige community zones</h3>
                     <p> Ontspan tussen het werken door in onze lounge of aan de koffietafel.
-                        Hier ontstaan de beste ideeën en waardevolle connecties.</p>
-                </div>
+                        Hier ontstaan de <strong>beste ideeën</strong> en <em>waardevolle connecties</em>.</p>
+                </article>
             </div>
-        </div>
+        </section>
 
         <!-- Hero Section -->
-        <div class="hero-section">
-            <div class="hero-image">
+        <section class="hero-section">
+            <figure class="hero-image">
                 <div class="placeholder-image">
-                    <img src="img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" alt="Desk near a window">
+                    <img src="img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" alt="Desk near a window" title="Werkplek bij het raam">
                 </div>
-            </div>
-            <div class="hero-text">
+                <figcaption class="visually-hidden">Bureau met uitzicht door raam</figcaption>
+            </figure>
+            <article class="hero-text">
                 <h2>Sfeer In De Workspace</h2>
-                <p>De sfeer bij WorkSpace is professioneel, maar altijd persoonlijk. Je merkt het meteen bij
+                <p>De sfeer bij <strong>WorkSpace</strong> is <em>professioneel</em>, maar altijd <em>persoonlijk</em>. Je merkt het meteen bij
                     binnenkomst: een open omgeving waar iedereen zich op zijn gemak voelt. Rustige focusruimtes worden
                     afgewisseld met levendige ontmoetingsplekken, zodat er voor ieder moment van de dag een passende
                     plek is.
-                    Wij geloven in verbinding en balans — een werkplek waar je geconcentreerd kunt presteren, maar ook
-                    kunt ontspannen en samenwerken met anderen. Met natuurlijke materialen, veel lichtinval en een warme
-                    inrichting voelt WorkSpace als een tweede thuis.</p>
-            </div>
-        </div>
+                    Wij geloven in <em>verbinding</em> en <em>balans</em> — een werkplek waar je geconcentreerd kunt presteren, maar ook
+                    kunt ontspannen en <strong>samenwerken</strong> met anderen. Met natuurlijke materialen, veel lichtinval en een warme
+                    inrichting voelt <strong>WorkSpace</strong> als een tweede thuis.</p>
+            </article>
+        </section>
     </main>
 
 
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section footer-logo-section">
+                <aside class="footer-section footer-logo-section">
                     <div class="footer-logo">
-                        <img src="img/WS.svg" alt="WorkSpace Logo">
+                        <img src="img/WS.svg" alt="WorkSpace Logo" title="WorkSpace">
                     </div>
                     <div class="social-media-icons">
                         <a href="#" aria-label="X (Twitter)">
-                            <img src="img/X Logo.svg" alt="X">
+                            <img src="img/X Logo.svg" alt="X" title="Volg ons op X">
                         </a>
                         <a href="#" aria-label="Instagram">
-                            <img src="img/Logo Instagram.svg" alt="Instagram">
+                            <img src="img/Logo Instagram.svg" alt="Instagram" title="Volg ons op Instagram">
                         </a>
                         <a href="#" aria-label="YouTube">
-                            <img src="img/Logo YouTube.svg" alt="YouTube">
+                            <img src="img/Logo YouTube.svg" alt="YouTube" title="Bekijk onze YouTube">
                         </a>
                         <a href="#" aria-label="LinkedIn">
-                            <img src="img/LinkedIn.svg" alt="LinkedIn">
+                            <img src="img/LinkedIn.svg" alt="LinkedIn" title="Verbind op LinkedIn">
                         </a>
                     </div>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Use cases</h3>
                     <ul>
                         <li>UI Design</li>
@@ -130,9 +135,9 @@
                         <li>Online whiteboard</li>
                         <li>Team collaboration</li>
                     </ul>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Explores</h3>
                     <ul>
                         <li>Design</li>
@@ -143,9 +148,9 @@
                         <li>Design process</li>
                         <li>FigJam</li>
                     </ul>
-                </div>
+                </aside>
 
-                <div class="footer-section">
+                <aside class="footer-section">
                     <h3>Resources</h3>
                     <ul>
                         <li>Blog</li>
@@ -156,8 +161,11 @@
                         <li>Developers</li>
                         <li>Resource library</li>
                     </ul>
-                </div>
+                </aside>
             </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 WorkSpace. All rights reserved.</p>
         </div>
     </footer>
 

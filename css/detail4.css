@@ -28,6 +28,7 @@ main {
     align-items: center;
 }
 
+.reviews-section h1,
 .reviews-section h2 {
     font-family: var(--crimson-text-heading-2-font-family);
     font-size: var(--crimson-text-heading-2-font-size);
