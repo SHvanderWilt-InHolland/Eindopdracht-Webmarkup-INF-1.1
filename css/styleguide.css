@@ -191,6 +191,22 @@ You can apply the theme on any DOM node, not just the `body`
 img {
   transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
   cursor: pointer;
+  /* Default size for all images except cards */
+  max-width: 484px;
+  max-height: 350px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Exclude card images from default sizing */
+.card img,
+.review-card img,
+.facility-card img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 img:hover {
@@ -215,5 +231,13 @@ img:active {
   img:active {
     transform: scale(0.98);
     opacity: 0.85;
+  }
+}
+
+/* Responsive sizing for mobile */
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
